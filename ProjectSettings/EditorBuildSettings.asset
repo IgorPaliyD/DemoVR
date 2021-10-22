@@ -5,7 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: d1c3109bdb54ad54c8a2b2838528e640
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/SuburbNeighborhoodHousePack/Scenes/NighttimeStreet.unity
+    guid: f3b57478212fb044e851455e424c2d48
+  - enabled: 0
+    path: Assets/Scenes/SteetNight.unity
+    guid: 37ac187c27b6e6449b19c6e067754748
+  - enabled: 0
+    path: Assets/House_Furniture_Pack/Scenes/Props_For_Suburb_Neighborhood_House03.unity
+    guid: f13ff6cb6be4bc34ea193e79892afc76
+  - enabled: 1
+    path: Assets/Scenes/StreetHouse.unity
+    guid: a2760540228d1ed40aac7098bb4eca20
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ec155c2f39ff8cd41be76d4b484c18cd, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eeedbf3a3438c564697b93a8744b3436, type: 2}
