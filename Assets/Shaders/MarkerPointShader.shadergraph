@@ -1236,7 +1236,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "37d2a19dd15b4470810a1cd88b38c771",
     "m_Id": 0,
-    "m_DisplayName": "FresneelPower",
+    "m_DisplayName": "Alpha",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1402,7 +1402,7 @@
     "m_DefaultReferenceName": "Color_4f8bee25333d4852a93028f7e5462f73",
     "m_OverrideReferenceName": "_Color",
     "m_GeneratePropertyBlock": true,
-    "m_Precision": 0,
+    "m_Precision": 2,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
@@ -1626,7 +1626,7 @@
     "m_Guid": {
         "m_GuidSerialized": "84f0a730-5a6a-4071-a217-672ec655788e"
     },
-    "m_Name": "FresneelPower",
+    "m_Name": "Alpha",
     "m_DefaultReferenceName": "Vector1_676631b658fa4cd2bb607ecac5e79eec",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
@@ -2465,7 +2465,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "bb33e504533649d2b12969b352c0a1b4",
     "m_Id": 0,
-    "m_DisplayName": "FresneelPower",
+    "m_DisplayName": "Alpha",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2514,7 +2514,7 @@
         }
     ],
     "synonyms": [],
-    "m_Precision": 0,
+    "m_Precision": 2,
     "m_PreviewExpanded": true,
     "m_PreviewMode": 0,
     "m_CustomColors": {
