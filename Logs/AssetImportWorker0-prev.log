@@ -15,12 +15,12 @@ E:/Projects/DemoVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51089
+56347
 Successfully changed project path to: E:/Projects/DemoVR
 E:/Projects/DemoVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 614.46 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 1.19 ms.
+Refreshing native plugins compatible for Editor in 136.55 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.36 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/Projects/DemoVR/Assets
@@ -36,18 +36,539 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002863 seconds.
+Registered in 0.003086 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 126.67 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 136.59 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.981 seconds
+- Completed reload, in  3.019 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 1.198683 seconds.
+Registered in 0.007296 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 142.16 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.284 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3271 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3723.
+Total: 8.453700 ms (FindLiveObjects: 0.889700 ms CreateObjectMapping: 0.613600 ms MarkObjects: 6.808700 ms  DeleteObjects: 0.139800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLines_Solo_45Deg.FBX
+  artifactKey: Guid(8cb354789feb25047923bf10cdad6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLines_Solo_45Deg.FBX using Guid(8cb354789feb25047923bf10cdad6938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3d9ae41f45b7fd8fddf54063d1536b') in 0.499016 seconds 
+  Import took 0.513034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Garden_Pilar.FBX
+  artifactKey: Guid(e5b98088ef8a17a42826b26c08fd3033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Garden_Pilar.FBX using Guid(e5b98088ef8a17a42826b26c08fd3033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814e5252d4a49f2d2dec6b929bbdba70') in 0.151067 seconds 
+  Import took 0.162710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_withWall_withBookshelf.FBX
+  artifactKey: Guid(41acf7cf237281645b5d46807d9b37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_withWall_withBookshelf.FBX using Guid(41acf7cf237281645b5d46807d9b37fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e072ca2a0e2a2e1b9b41fd54f0cd027') in 0.161752 seconds 
+  Import took 0.175970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_E.FBX
+  artifactKey: Guid(8613548fdf9a0a74fa1ad9f12cde56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_E.FBX using Guid(8613548fdf9a0a74fa1ad9f12cde56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4b5f3b09d13b68888c4c4964ec6b92') in 0.110608 seconds 
+  Import took 0.121555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Roadblock_Concrete.FBX
+  artifactKey: Guid(87255dfd03c8fb2458dd7c4eaedc4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Roadblock_Concrete.FBX using Guid(87255dfd03c8fb2458dd7c4eaedc4eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0fe8360c445eeed1dd7a86056f6522') in 0.106742 seconds 
+  Import took 0.117976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wall_Original.FBX
+  artifactKey: Guid(50a177c05c2c38a48a48c14d551f42d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wall_Original.FBX using Guid(50a177c05c2c38a48a48c14d551f42d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6e22b9cd0af88829eaab1cde326199c') in 0.102024 seconds 
+  Import took 0.113629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Yellow_01.FBX
+  artifactKey: Guid(a99b55a402532f343a275ec4ce5f8b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Yellow_01.FBX using Guid(a99b55a402532f343a275ec4ce5f8b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f9da932ee63b7ba41007b7c747e532') in 0.109699 seconds 
+  Import took 0.120470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Right_2x.FBX
+  artifactKey: Guid(47df0f2e478b33f42a484c1991025190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Right_2x.FBX using Guid(47df0f2e478b33f42a484c1991025190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7780321e4ca8c40cf99ef2ee8007b3c1') in 0.110037 seconds 
+  Import took 0.120992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_withWall.FBX
+  artifactKey: Guid(64d44debe3689fd45a3e0c00817aba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_withWall.FBX using Guid(64d44debe3689fd45a3e0c00817aba82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7233d1cd77e54c27ef2728617437951a') in 0.072503 seconds 
+  Import took 0.085079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Porch_Stool.FBX
+  artifactKey: Guid(2b754cde81a92844aad1bfae33a370a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Porch_Stool.FBX using Guid(2b754cde81a92844aad1bfae33a370a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10839e9d332ee2239e6b1b24300793c6') in 0.108302 seconds 
+  Import took 0.119703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_End.FBX
+  artifactKey: Guid(8127f188e0a52f84aab7178aec65153b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_End.FBX using Guid(8127f188e0a52f84aab7178aec65153b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0873d35e61d14e97b08a0e5f7cd59b49') in 0.053681 seconds 
+  Import took 0.064691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_C.FBX
+  artifactKey: Guid(ed6b13ed751a50f48bfa1854d9533e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_C.FBX using Guid(ed6b13ed751a50f48bfa1854d9533e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaebc6fd8230e5b7639a8968304d0f9') in 0.054917 seconds 
+  Import took 0.064911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/RoundTable.FBX
+  artifactKey: Guid(f21d8427d21aa0147bdd379e0d8d87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/RoundTable.FBX using Guid(f21d8427d21aa0147bdd379e0d8d87cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3744d6b34d3618f24cbfda5c42790663') in 0.127264 seconds 
+  Import took 0.138076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Right_1x.FBX
+  artifactKey: Guid(ea72761ac066d204db4ea128bd06e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Right_1x.FBX using Guid(ea72761ac066d204db4ea128bd06e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e54d07ff3ddc22de128f80d74ac753bd') in 0.057862 seconds 
+  Import took 0.068737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wirehanging_3x.FBX
+  artifactKey: Guid(43caed091273ae24ca6d97e40e23af77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wirehanging_3x.FBX using Guid(43caed091273ae24ca6d97e40e23af77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7dfd638adc71ee0b7f32acf177698a') in 0.056560 seconds 
+  Import took 0.068048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_A.FBX
+  artifactKey: Guid(b758202ad1f050346a30401b6abfbc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_A.FBX using Guid(b758202ad1f050346a30401b6abfbc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7016dd7bcb3a2f15e5195e3dc9389f4') in 0.050546 seconds 
+  Import took 0.061927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Sun_Umbrella.FBX
+  artifactKey: Guid(2f3838989373a9f458473cacc9c47fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Sun_Umbrella.FBX using Guid(2f3838989373a9f458473cacc9c47fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c94c83620690fa363297c62b55de3fb') in 0.051550 seconds 
+  Import took 0.062614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Yellow_02.FBX
+  artifactKey: Guid(bae38d468fda28e4486c9ee011ec4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Yellow_02.FBX using Guid(bae38d468fda28e4486c9ee011ec4b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fe37b67c5c3eb55f2b4cd66a7a4d7c') in 0.053350 seconds 
+  Import took 0.065236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Roadblock_Wood.FBX
+  artifactKey: Guid(bcb98daeb3e870943be78dcaa40719b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Roadblock_Wood.FBX using Guid(bcb98daeb3e870943be78dcaa40719b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd0ea513e26cec9d5e643b197793729') in 0.046762 seconds 
+  Import took 0.058465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_D.FBX
+  artifactKey: Guid(0343e332dc2731e43a94a912042720f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_D.FBX using Guid(0343e332dc2731e43a94a912042720f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a74ce6693b078e9ec4a8d8484591e0c') in 0.055261 seconds 
+  Import took 0.066892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Trashbin.FBX
+  artifactKey: Guid(b112fff72f7ff6e4fb5c69cf56c691de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Trashbin.FBX using Guid(b112fff72f7ff6e4fb5c69cf56c691de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e654dc4ee747da742a1f54c6583f7468') in 0.101396 seconds 
+  Import took 0.112496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_Extra_Chimney.FBX
+  artifactKey: Guid(5e448c964931b3c408dcb5e9941f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_Extra_Chimney.FBX using Guid(5e448c964931b3c408dcb5e9941f3d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f566ba0272aea18822f37e5563e4139c') in 0.081701 seconds 
+  Import took 0.093743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_Low_2x.FBX
+  artifactKey: Guid(61905c43b7cba64459613e8600ff6879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_Low_2x.FBX using Guid(61905c43b7cba64459613e8600ff6879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6070463f6f8d4260047a9b10bd37a1') in 0.129069 seconds 
+  Import took 0.139975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Ground_Moss_Tiled.FBX
+  artifactKey: Guid(3c6aa044431c9f74d9ba637eaf41a8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Ground_Moss_Tiled.FBX using Guid(3c6aa044431c9f74d9ba637eaf41a8b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bad170cf56fb29ea7352384e1da8567') in 0.057396 seconds 
+  Import took 0.068908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wirehanging_6x.FBX
+  artifactKey: Guid(c0044e0fb7795814393236f32277b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wirehanging_6x.FBX using Guid(c0044e0fb7795814393236f32277b501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45aa8c6a7d6ac3e11e1e680e6af54e2') in 0.059653 seconds 
+  Import took 0.069862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLines_Solo_45Deg.prefab
+  artifactKey: Guid(64feb3da2b92a90409bdcd0348d2ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLines_Solo_45Deg.prefab using Guid(64feb3da2b92a90409bdcd0348d2ed8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5f1ef183a18da88270739d251abdd3') in 0.020099 seconds 
+  Import took 0.031299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Plant_TallGrass.FBX
+  artifactKey: Guid(49e6a0684a332ad498ec970c6ae7b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Plant_TallGrass.FBX using Guid(49e6a0684a332ad498ec970c6ae7b27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872ad896aee4808f0528c50faae491da') in 0.108703 seconds 
+  Import took 0.120251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Trashbag.FBX
+  artifactKey: Guid(6d5e38b7459a90e48b692bfb567ae5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Trashbag.FBX using Guid(6d5e38b7459a90e48b692bfb567ae5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e3cd583689d26d619b84f4aa8d67c59') in 0.059193 seconds 
+  Import took 0.071344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wall_Box.FBX
+  artifactKey: Guid(18b23ab5fc3d29a47b07c591ea21e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Wall_Box.FBX using Guid(18b23ab5fc3d29a47b07c591ea21e68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc8615b43379809106eac186800424a') in 0.057123 seconds 
+  Import took 0.068503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Red_01.FBX
+  artifactKey: Guid(eec08f91dd77afb458fca8908a74de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Red_01.FBX using Guid(eec08f91dd77afb458fca8908a74de11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93d6d6633df8110ab43aef35855a835') in 0.050985 seconds 
+  Import took 0.062926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLine_Short.prefab
+  artifactKey: Guid(e80ad38f942663a41ab2c209f58ef9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLine_Short.prefab using Guid(e80ad38f942663a41ab2c209f58ef9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad217cfce22f78a0be1202c2d4350bf') in 0.047519 seconds 
+  Import took 0.058904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_Single.FBX
+  artifactKey: Guid(548ef120143b35149b76a1ed8bfc6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fireplace_Single.FBX using Guid(548ef120143b35149b76a1ed8bfc6186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4496f578a75715b5e3d00fe104b5ca39') in 0.077154 seconds 
+  Import took 0.089710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FP_BookShelf.FBX
+  artifactKey: Guid(16efa01f5fb82104f953983e6cba3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FP_BookShelf.FBX using Guid(16efa01f5fb82104f953983e6cba3f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7a77ac017ff093028b328725e89656') in 0.080880 seconds 
+  Import took 0.093882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_B.FBX
+  artifactKey: Guid(17772286f67a34a47a3f1951432a1e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stone_B.FBX using Guid(17772286f67a34a47a3f1951432a1e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f42a588921f0b2b98780fb8166cfc84') in 0.051095 seconds 
+  Import took 0.063321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FenceDark_Backyard_End.FBX
+  artifactKey: Guid(58e346d92b03faa4eb6e8cee84355d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FenceDark_Backyard_End.FBX using Guid(58e346d92b03faa4eb6e8cee84355d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48340a7172a5d861f8f3596fcd7d7890') in 0.096855 seconds 
+  Import took 0.108030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_High_2x.FBX
+  artifactKey: Guid(1f874c9de8a5ad24b954df30db95156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_High_2x.FBX using Guid(1f874c9de8a5ad24b954df30db95156c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cdc558069354fd1db9eb636b3160ed') in 0.041033 seconds 
+  Import took 0.052318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Red_02.FBX
+  artifactKey: Guid(a2014d2b6769f9e40a56995adb64787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flower_Red_02.FBX using Guid(a2014d2b6769f9e40a56995adb64787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418edddd3ed989e30e17239bf108b768') in 0.054031 seconds 
+  Import took 0.066187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_18x.FBX
+  artifactKey: Guid(1dab2073bd6c50742b21efd30215a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_18x.FBX using Guid(1dab2073bd6c50742b21efd30215a415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95203d6dcdec924602a8625441e6153e') in 0.055767 seconds 
+  Import took 0.066297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLine_Long.prefab
+  artifactKey: Guid(5445e133cc81d884e8d37b581272fdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLine_Long.prefab using Guid(5445e133cc81d884e8d37b581272fdaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87224dc1db7f6f95653056c0b0cbeca9') in 0.020699 seconds 
+  Import took 0.031500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flag_Usa.FBX
+  artifactKey: Guid(8192308a9b237484c9afc4b5f1cc22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flag_Usa.FBX using Guid(8192308a9b237484c9afc4b5f1cc22f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a45b243abfdf0b11b48bdd25b226d0') in 0.056404 seconds 
+  Import took 0.067724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Mailbox.FBX
+  artifactKey: Guid(8be4de380f0d0f144aed6c2d6e3bc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Mailbox.FBX using Guid(8be4de380f0d0f144aed6c2d6e3bc606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ae825e260bd83c47443b741f7ce6a6') in 0.055816 seconds 
+  Import took 0.068048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_End.FBX
+  artifactKey: Guid(9d7dfacc4e96c5145a8617b0da8aeff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_End.FBX using Guid(9d7dfacc4e96c5145a8617b0da8aeff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce139b6e6616b0b98dbeb8b8d948d7d6') in 0.054164 seconds 
+  Import took 0.065606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLine_Long.FBX
+  artifactKey: Guid(7738069ac37b1884f83a37b9ec235ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLine_Long.FBX using Guid(7738069ac37b1884f83a37b9ec235ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94d6fda93d8706736866c02059bae466') in 0.025366 seconds 
+  Import took 0.037018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLine_Short.FBX
+  artifactKey: Guid(e213a90c998112041b07baab412b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLine_Short.FBX using Guid(e213a90c998112041b07baab412b836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9828089a8a494cb055c8361d253abe') in 0.024653 seconds 
+  Import took 0.035127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Left_2x.FBX
+  artifactKey: Guid(57dfafb8f0d4d2748a45ee87edc8aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Left_2x.FBX using Guid(57dfafb8f0d4d2748a45ee87edc8aa74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b867470da83a226c5bd574959ad514fd') in 0.053427 seconds 
+  Import took 0.065397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Plant_Punjab.FBX
+  artifactKey: Guid(87922657edf5e5c4a937794b34e27239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Plant_Punjab.FBX using Guid(87922657edf5e5c4a937794b34e27239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c889daf84e3c4a8da29cc4e9440e42d') in 0.100729 seconds 
+  Import took 0.112465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_Tile.FBX
+  artifactKey: Guid(12f2007817864de47980f6ab975684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Backyard_Tile.FBX using Guid(12f2007817864de47980f6ab975684bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a701ca913e479ebe023f1a64f51c7dd') in 0.052304 seconds 
+  Import took 0.063539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Porch_Table.FBX
+  artifactKey: Guid(8554d1bfcfa644f4594d796ccf45b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Porch_Table.FBX using Guid(8554d1bfcfa644f4594d796ccf45b583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4739c7ab624807d890b5bc266555a80a') in 0.057066 seconds 
+  Import took 0.068473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Left_1x.FBX
+  artifactKey: Guid(fc530c387e932a84d802dec0a8a0b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Fence_Frontyard_Tile_Left_1x.FBX using Guid(fc530c387e932a84d802dec0a8a0b8f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad788c7c0ddd4555fc1d062ad44a3e0f') in 0.054343 seconds 
+  Import took 0.064925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FenceDark_Backyard_Tile.FBX
+  artifactKey: Guid(8bcaf1794ab50904bbf4b0e6fe434910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FenceDark_Backyard_Tile.FBX using Guid(8bcaf1794ab50904bbf4b0e6fe434910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56daa4d87f9f81e40a4c396e60db24e0') in 0.053985 seconds 
+  Import took 0.065369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLines_Solo.prefab
+  artifactKey: Guid(35fec6fcfbd1f2446994c71c687c02fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/PowerLines_Solo.prefab using Guid(35fec6fcfbd1f2446994c71c687c02fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822b593a8b706a1f5830a481378f672a') in 0.050079 seconds 
+  Import took 0.061542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLines_Solo.FBX
+  artifactKey: Guid(1ffc0d6a3b96042408cdeffe3c89118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/PowerLines_Solo.FBX using Guid(1ffc0d6a3b96042408cdeffe3c89118a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fb54361ce6a8971ec833aafb2500e9') in 0.025382 seconds 
+  Import took 0.037659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Garden_Small.FBX
+  artifactKey: Guid(0d9d0590cfca4fe428bd64085776365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_Garden_Small.FBX using Guid(0d9d0590cfca4fe428bd64085776365c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ab147fba2edd6082754ade81b6d273') in 0.055359 seconds 
+  Import took 0.066737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FabricChair.FBX
+  artifactKey: Guid(5a0941fa66966604db1863c1ff7f4cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/FabricChair.FBX using Guid(5a0941fa66966604db1863c1ff7f4cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e3c6f9eb91b231bb679d29e1c8bd12') in 0.056708 seconds 
+  Import took 0.068666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stop_Sign.FBX
+  artifactKey: Guid(5fb5a78783d6bf546a9d81dceaf58256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Stop_Sign.FBX using Guid(5fb5a78783d6bf546a9d81dceaf58256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d27089684ed34a95ca6ee0da0d65ec') in 0.053092 seconds 
+  Import took 0.064143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_WireHanging_2x.FBX
+  artifactKey: Guid(966b6e678eb2ea54fb6d865dc39c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Lamp_WireHanging_2x.FBX using Guid(966b6e678eb2ea54fb6d865dc39c486f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd0346cd5072757641715460565156e') in 0.057832 seconds 
+  Import took 0.069034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_High_7x.FBX
+  artifactKey: Guid(dda60c3aec6930d4a9d7e787cf2f5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_High_7x.FBX using Guid(dda60c3aec6930d4a9d7e787cf2f5e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9bed104a0d431e58c5e82d1c0eaad6') in 0.043108 seconds 
+  Import took 0.053831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_Round.FBX
+  artifactKey: Guid(7429134f12e9d4146b1a2fc57065d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Meshes/Flowerbed_Round.FBX using Guid(7429134f12e9d4146b1a2fc57065d0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4765ff67016be25a4b7e45e43f4cd9') in 0.043477 seconds 
+  Import took 0.055569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9089.230898 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Background_House_A.prefab
+  artifactKey: Guid(f93398ab2901c0945aa76dd7bc49e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Background_House_A.prefab using Guid(f93398ab2901c0945aa76dd7bc49e664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2896890094c6fd05f31a43405e150ad9') in 0.431486 seconds 
+  Import took 0.582963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000597 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Background_House_B.prefab
+  artifactKey: Guid(4daebf14c04100f41843f77a059d83a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Background_House_B.prefab using Guid(4daebf14c04100f41843f77a059d83a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e7a5851f3c2db72733f4b9b9f91d86') in 0.067755 seconds 
+  Import took 0.080255 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
