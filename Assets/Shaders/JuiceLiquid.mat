@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: JuiceLiquid
+  m_Shader: {fileID: -6465566751694194690, guid: 8be250847617fa940acf8210a6b6aeb2, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3001
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_52f9165a9c3e437c97f3993b1e22b876: 0
+    - Vector1_a4735209282c4b2eac3b1a912c595cc4: 0.44
+    - Vector1_f33f444654ac47fea9d1810206c073ad: 4.9
+    - Vector1_f4483be5ddad4c5c9cbcd87bab50ff5f: 1
+    - _Fill: -0.18
+    m_Colors:
+    - Color_8ebea6f6a6754837b8d300151678d359: {r: 4.594794, g: 0.810846, b: 0, a: 0}
+    - Color_a317e428eee44c7d8dd97f086b00e9b2: {r: 4.594794, g: 0.810846, b: 0, a: 0}
+  m_BuildTextureStacks: []
