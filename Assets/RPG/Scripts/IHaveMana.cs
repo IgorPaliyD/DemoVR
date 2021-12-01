@@ -1,4 +1,5 @@
 
+namespace RPG{
 public interface IHaveMana 
 {
     int MaxMana{get;}
@@ -7,4 +8,5 @@ public interface IHaveMana
     void DecreaseMana(int number);
     void IncreaseMana(int number);
 
+}
 }

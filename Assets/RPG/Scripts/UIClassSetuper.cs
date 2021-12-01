@@ -12,12 +12,10 @@ public class UIClassSetuper : MonoBehaviour
 
     private void Awake() {
         classes = new List<CharacterClass>();
-        classes.Add(new Knight());
-        classes.Add(new Mage());
-        classes.Add(new Rogue());
+       
     }
     public void SelectClass(int i){
-        character.SetupClass(classes[i]);
+    
     }
 }
 }
