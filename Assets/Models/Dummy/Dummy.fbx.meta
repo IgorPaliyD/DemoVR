@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 9bd92e16809a8124cb68f80cc8d8ebbe
+guid: ea71f14db0c69ad4983674332757d617
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
   externalObjects:
   - first:
-      type: UnityEngine:Texture2D
+      type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: pult_texturev1
-    second: {fileID: 2800000, guid: 66cd405bd7d353f42b5666d8f53e62a0, type: 3}
+      name: dummy
+    second: {fileID: 2100000, guid: 943845085164fb5409207bb0ebc33d77, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -50,7 +50,7 @@ ModelImporter:
     importLights: 1
     fileIdsGeneration: 2
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     keepQuads: 0
     weldVertices: 1

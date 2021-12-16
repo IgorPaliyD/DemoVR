@@ -24,6 +24,10 @@ namespace RPG
                 InitializeCharachter();
             }
         }
+        public CharacterBase CharacterBase
+        {
+            get => _characterBaseInstance;
+        }
 
         private void Awake()
         {

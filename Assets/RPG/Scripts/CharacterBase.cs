@@ -5,11 +5,11 @@ namespace RPG
 
     public class CharacterBase : IHaveStats, IHaveHealth, IHaveMana
     {
-        
+
         protected string className;
-        public int STR { get; private set; } = 10;
-        public int INT { get; private set; } = 10;
-        public int DEX { get; private set; } = 10;
+        public int STR { get; private set; }
+        public int INT { get; private set; }
+        public int DEX { get; private set; }
 
         public int MaxHealth { get; private set; }
         public int CurrentHealth { get; private set; }
@@ -27,7 +27,7 @@ namespace RPG
             className = name;
             STR = str;
             INT = intel;
-            DEX = DEX;
+            DEX = dex;
             SetMaxHP(maxHealth);
             SetMaxMP(maxMana);
         }
@@ -81,7 +81,7 @@ namespace RPG
         }
         public string GetStats()
         {
-            return string.Format("name:{0}" + "\n" + "STR: {1}" + "\n" + "INT: {2}" + "\n" + "DEX: {3}"+"\n"+"MaxMP: {4}"+"\n"+"MaxHP: {5}", className, STR, INT, DEX,MaxMana,MaxHealth);
+            return string.Format("name:{0}" + "\n" + "STR: {1}" + "\n" + "INT: {2}" + "\n" + "DEX: {3}" + "\n" + "MaxMP: {4}" + "\n" + "MaxHP: {5}", className, STR, INT, DEX, MaxMana, MaxHealth);
             //return $"name {className}\nSTR: {STR}";
         }
 
