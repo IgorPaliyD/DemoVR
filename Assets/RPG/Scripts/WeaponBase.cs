@@ -41,7 +41,7 @@ namespace RPG
         }
         public void DoAttack(IHaveHealth targetHealth)
         {
-            OnWeaponAttack.Invoke();
+            //OnWeaponAttack.Invoke();
             if (_canAttak)
             {
                 DealDamage(targetHealth);
@@ -56,13 +56,11 @@ namespace RPG
             matches.Add(WeaponStats.INT <= WeaponOwner.INT ? true : false);
             matches.Add(WeaponStats.DEX <= WeaponOwner.DEX ? true : false);
             WeaponCanBeUsed = matches.All(x => x);
-            Debug.Log(WeaponCanBeUsed = matches.All(x => x));
+            Debug.Log(WeaponCanBeUsed);
         }
         private void Initialize()
         {
-            if(WeaponStats==null){
-
-            }
+            if(WeaponStats==null)return;
             _interactable = GetComponent<XRBaseInteractable>();
             _interactable.selectEntered.AddListener(WeaponGrabbed);
             _interactable.selectEntered.AddListener(WeaponUnGrabbed);
@@ -101,10 +99,10 @@ namespace RPG
         }
         private void WeaponGrabbed(SelectEnterEventArgs arg0)
         {
-            CheckStatsRequirement();
             CharacterHand hand;
             TryGetCharacterHand(arg0.interactor.gameObject,out hand);
             WeaponOwner = hand.Character.CharacterBase;
+            CheckStatsRequirement();
             SetWaponDamage();
 
         }

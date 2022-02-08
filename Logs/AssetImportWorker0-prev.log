@@ -1,0 +1,198 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1466; Version 2009; 64bit' Language: 'ru' Physical Memory: 32665 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.13f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Projects/DemoVR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63447
+Successfully changed project path to: E:/Projects/DemoVR
+E:/Projects/DemoVR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.69 ms.
+Initialize engine version: 2020.3.13f1 (71691879b7f5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Projects/DemoVR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 SUPER (ID=0x21c4)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.6089
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001569 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 62.19 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.441 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003075 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 65.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.017 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3312 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.0 MB.
+System memory in use after: 157.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 2.622200 ms (FindLiveObjects: 0.282600 ms CreateObjectMapping: 0.149900 ms MarkObjects: 2.117100 ms  DeleteObjects: 0.072000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Shaders/BDOPoint.mat
+  artifactKey: Guid(2fe3c93527c665a4c869cb42b981add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/BDOPoint.mat using Guid(2fe3c93527c665a4c869cb42b981add2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7979675859f6b94e6dcb3a44025dd6af') in 0.206826 seconds 
+  Import took 0.211698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4513.504804 seconds.
+  path: Assets/RPG/RPGMechanics.unity
+  artifactKey: Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/RPGMechanics.unity using Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5b6546a317cac96632bb7eba25f3b2') in 0.005870 seconds 
+  Import took 0.011828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.640170 seconds.
+  path: Assets/Shaders/Graphs
+  artifactKey: Guid(a147cbd815d96c54caa23e06b2269769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs using Guid(a147cbd815d96c54caa23e06b2269769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f0ac33185263a27a34dd332d59d412') in 0.004421 seconds 
+  Import took 0.009907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.396216 seconds.
+  path: Assets/Shaders/Graphs/fire shader.unitypackage
+  artifactKey: Guid(eb921c0c9c955574c8bfd08b746f3b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/fire shader.unitypackage using Guid(eb921c0c9c955574c8bfd08b746f3b8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4420f0e7ecd9d09aa771cf6864a5feed') in 0.006858 seconds 
+  Import took 0.011720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.581418 seconds.
+  path: Assets/Shaders/Graphs/FlipBookComponent.shadersubgraph
+  artifactKey: Guid(ac75813be2b1f1747aff54c95122e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/FlipBookComponent.shadersubgraph using Guid(ac75813be2b1f1747aff54c95122e19c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515b8d9d32405e6042dab17f02f4352f') in 0.007161 seconds 
+  Import took 0.011695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.975102 seconds.
+  path: Assets/Shaders/Graphs/Fire.shadergraph
+  artifactKey: Guid(6148c753b7d42df43a6b19f3aab0cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/Fire.shadergraph using Guid(6148c753b7d42df43a6b19f3aab0cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a029198c175b4bdf9aa3858324d9dce7') in 0.003223 seconds 
+  Import took 0.008113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221670 seconds.
+  path: Assets/Shaders/Graphs/Fire.shadergraph
+  artifactKey: Guid(6148c753b7d42df43a6b19f3aab0cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/Fire.shadergraph using Guid(6148c753b7d42df43a6b19f3aab0cafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a029198c175b4bdf9aa3858324d9dce7') in 0.002551 seconds 
+  Import took 0.008523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.299790 seconds.
+  path: Assets/Textures/Flames/SmallFlame01-mini-temperature_16x4.exr
+  artifactKey: Guid(4aa60966acde36949ade5eeaeba98a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flames/SmallFlame01-mini-temperature_16x4.exr using Guid(4aa60966acde36949ade5eeaeba98a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1373c1dd62f2915669fa9592452a1') in 0.013854 seconds 
+  Import took 0.018382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Textures/Flames/SmallFlame01-mini-temperature_16x4.exr
+  artifactKey: Guid(4aa60966acde36949ade5eeaeba98a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Flames/SmallFlame01-mini-temperature_16x4.exr using Guid(4aa60966acde36949ade5eeaeba98a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a1373c1dd62f2915669fa9592452a1') in 0.003952 seconds 
+  Import took 0.008421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.255205 seconds.
+  path: Assets/Shaders/Graphs/Fireball.mat
+  artifactKey: Guid(364cbe60824ff27458bd68a08d0383ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/Fireball.mat using Guid(364cbe60824ff27458bd68a08d0383ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1276a14258b3abbd0a40e47a4bf1d32') in 0.011134 seconds 
+  Import took 0.016352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.205984 seconds.
+  path: Assets/Shaders/Graphs/Fireball.mat
+  artifactKey: Guid(364cbe60824ff27458bd68a08d0383ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Graphs/Fireball.mat using Guid(364cbe60824ff27458bd68a08d0383ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80590224413c978a1df2759d35cdc4f') in 0.011906 seconds 
+  Import took 0.016603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 433.187454 seconds.
+  path: Assets/Scenes/VFX test.unity
+  artifactKey: Guid(00852f08e7c6b42498c16450a46f0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/VFX test.unity using Guid(00852f08e7c6b42498c16450a46f0734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5ee0d061296db0be293e2b019c9c08') in 0.005197 seconds 
+  Import took 0.010332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1369.803033 seconds.
+  path: Assets/RPG/RPGMechanics.unity
+  artifactKey: Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG/RPGMechanics.unity using Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7748a4d29b3015119ef432b0163485e4') in 0.005734 seconds 
+  Import took 0.011684 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

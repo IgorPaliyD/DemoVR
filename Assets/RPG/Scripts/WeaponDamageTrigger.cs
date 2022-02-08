@@ -7,10 +7,15 @@ namespace RPG
     public class WeaponDamageTrigger : MonoBehaviour
     {
         [SerializeField] private WeaponBase m_weaponBase;
-        private void OnTriggerEnter(Collider other)
+        public WeaponBase Base
         {
-            if (!other.TryGetComponent<IHaveHealth>(out var target)) return;
-            m_weaponBase.DoAttack(target);
+            get => m_weaponBase;
+            set => m_weaponBase = value;
+        }
+        private void OnCollisionEnter(Collision other)
+        {
+            if (!other.gameObject.TryGetComponent<IHaveHealth>(out var target)) return;
+            Base.DoAttack(target);
         }
 
 

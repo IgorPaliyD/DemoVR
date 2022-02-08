@@ -7,6 +7,10 @@ TagManager:
   - Door
   - HAmmer
   - Hammer
+  - Pickup
+  - Bullet01
+  - Bullet02
+  - Bullet03
   layers:
   - Default
   - TransparentFX
@@ -17,8 +21,8 @@ TagManager:
   - Teleport
   - eye
   - Hammer
-  - 
-  - 
+  - Weapon
+  - Highlight
   - 
   - 
   - 

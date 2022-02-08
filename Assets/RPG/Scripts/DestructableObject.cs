@@ -11,7 +11,8 @@ namespace RPG
         public int MaxHealth { get; private set; }
         public int CurrentHealth { get; private set; }
         public event UnityAction OnHealthChange;
-
+        public UnityEvent OnHealthEmpty;
+        private bool _isDead;
         private void Awake()
         {
             InitializeObject();
@@ -23,21 +24,27 @@ namespace RPG
         }
         public void ApplyDamage(int number)
         {
+            if(_isDead) return;
             if (CurrentHealth > 0)
             {
                 CurrentHealth -= number;
                 OnHealthChange?.Invoke();
             }
+            if(CurrentHealth<=0){
+                _isDead = true;
+                OnHealthEmpty.Invoke();
+            }
 
         }
         public void ApplyHealing(int number)
         {
+            if(_isDead) return;
             if (CurrentHealth < MaxHealth)
             {
                 CurrentHealth += number;
                 OnHealthChange?.Invoke();
             }
-
+            
         }
 
     }

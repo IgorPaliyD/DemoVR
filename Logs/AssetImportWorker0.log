@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.13f1 (71691879b7f5) revision 7432472'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'ru' Physical Memory: 32665 MB
+OS: 'Windows 10 Pro; OS build 19043.1466; Version 2009; 64bit' Language: 'ru' Physical Memory: 32665 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,12 +15,12 @@ E:/Projects/DemoVR
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56575
+55116
 Successfully changed project path to: E:/Projects/DemoVR
 E:/Projects/DemoVR
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.12 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
+Refreshing native plugins compatible for Editor in 63.47 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path E:/Projects/DemoVR/Assets
@@ -36,26 +36,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001593 seconds.
+Registered in 0.001613 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.65 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 64.18 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.399 seconds
+- Completed reload, in  1.611 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003053 seconds.
+Registered in 0.003036 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 63.11 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 67.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -67,20 +67,20 @@ NullReferenceException: Object reference not set to an instance of an object
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.982 seconds
+- Completed reload, in  1.010 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 3299 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 155.7 MB.
-System memory in use after: 155.9 MB.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 3338 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.7 MB.
+System memory in use after: 163.9 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3751.
-Total: 2.361900 ms (FindLiveObjects: 0.270200 ms CreateObjectMapping: 0.153600 ms MarkObjects: 1.877000 ms  DeleteObjects: 0.060400 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3792.
+Total: 2.808300 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.150500 ms MarkObjects: 2.275000 ms  DeleteObjects: 0.096000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -94,169 +94,2557 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Settings/UniversalRP-LowQuality.asset
-  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e1c6d07e2bf30c8b9ff2905542911d') in 0.024182 seconds 
-  Import took 0.028329 seconds .
+  path: Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd
+  artifactKey: Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/ImageEffects/Textures/HexShape.psd using Guid(a4cdca73d61814d33ac1587f6c163bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a2e95340e3989d263435b0d149b70f') in 0.040938 seconds 
+  Import took 0.045795 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Settings/UniversalRP-MediumQuality.asset
-  artifactKey: Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-MediumQuality.asset using Guid(d847b876476d3d6468f5dfcd34266f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0ec52b311d7f8a1baca7c224e0c697') in 0.004980 seconds 
-  Import took 0.008878 seconds .
+  Time since last request: 2.087136 seconds.
+  path: Assets/DestructibleProps/Reflections.cubemap
+  artifactKey: Guid(66fe84b0794ae2a43afbd830c90a7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Reflections.cubemap using Guid(66fe84b0794ae2a43afbd830c90a7895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc0398580035890d4df713ba0816a60') in 0.110325 seconds 
+  Import took 0.114733 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Settings/UniversalRP-HighQuality.asset
-  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a216ef7120edfb01522dad8634c8af') in 0.004393 seconds 
-  Import took 0.008101 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/DestructibleProps/SparksFlash.mat
+  artifactKey: Guid(d07b571572f47414ca848d85a0a4bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/SparksFlash.mat using Guid(d07b571572f47414ca848d85a0a4bbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513d2e63bd10377cb0e23fab551dda41') in 0.140900 seconds 
+  Import took 0.146081 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.637135 seconds.
-  path: Assets/RPG/RPGMechanics.unity
-  artifactKey: Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RPG/RPGMechanics.unity using Guid(2eab962343d6db842adc95e7759d8340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7f4336bb48e8d59d3f275680d525a77') in 0.004823 seconds 
-  Import took 0.008906 seconds .
+  Time since last request: 0.000138 seconds.
+  path: Assets/DestructibleProps/sparks.jpg
+  artifactKey: Guid(002d2f2789d06d44db42a2e929e32bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/sparks.jpg using Guid(002d2f2789d06d44db42a2e929e32bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4c2b6a9f7da563727b93327df62623') in 0.022796 seconds 
+  Import took 0.027232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 588.470161 seconds.
-  path: Assets/Models/Pot/source/Day20_Sprout_Low.fbx
-  artifactKey: Guid(887b1d0c4c8b9dc469b65a35290c6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pot/source/Day20_Sprout_Low.fbx using Guid(887b1d0c4c8b9dc469b65a35290c6134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a346fff120b65fcc6e0c9eb6dcaf57c3') in 0.209296 seconds 
-  Import took 0.214998 seconds .
+  Time since last request: 8.568145 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible
+  artifactKey: Guid(89af67900844e4944b4f69c7882ab875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible using Guid(89af67900844e4944b4f69c7882ab875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb1bb75e64274b4c195a4e8d590cd1') in 0.000723 seconds 
+  Import took 0.004751 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.059350 seconds.
-  path: Assets/Models/Pot/textures/Sprout_Normal.png
-  artifactKey: Guid(a1e8cedd1fc1b7f4fac3faa45e028468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pot/textures/Sprout_Normal.png using Guid(a1e8cedd1fc1b7f4fac3faa45e028468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bc997f4a665e18cc5198a0084785ef') in 0.020336 seconds 
-  Import took 0.024552 seconds .
+  Time since last request: 0.006916 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible
+  artifactKey: Guid(89af67900844e4944b4f69c7882ab875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible using Guid(89af67900844e4944b4f69c7882ab875) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb1bb75e64274b4c195a4e8d590cd1') in 0.000654 seconds 
+  Import took 0.004946 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006803 seconds.
-  path: Assets/Animations/juice anim.anim
-  artifactKey: Guid(8c98969a7809b75449e5ea6c9b2a7540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/juice anim.anim using Guid(8c98969a7809b75449e5ea6c9b2a7540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c719c1eb08b9c15e9a22a20eb6ed26fc') in 0.005155 seconds 
-  Import took 0.009231 seconds .
+  Time since last request: 0.042450 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Bottle01.prefab
+  artifactKey: Guid(82722988e5ffcbd4c954905a4ef1a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Bottle01.prefab using Guid(82722988e5ffcbd4c954905a4ef1a894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f0b2d923f52db54e6a720f785e6a22e') in 0.044944 seconds 
+  Import took 0.049429 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003289 seconds.
-  path: Assets/Models/orange/source/defaultMat.mat
-  artifactKey: Guid(d41852ed13c2c384e958738c12e0f302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/orange/source/defaultMat.mat using Guid(d41852ed13c2c384e958738c12e0f302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d12f1954617070c12348a641c6c000f') in 0.040638 seconds 
-  Import took 0.045091 seconds .
+  Time since last request: 0.000201 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Vase02.prefab
+  artifactKey: Guid(00a24f3c0265012488cb6646723d0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Vase02.prefab using Guid(00a24f3c0265012488cb6646723d0aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7123e6b16a45ce15d97bf16efff5b140') in 0.036215 seconds 
+  Import took 0.040397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003649 seconds.
-  path: Assets/Models/Pot/source/pot.mat
-  artifactKey: Guid(b34fc0b1b5d6b3b429a764eb0fab7de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pot/source/pot.mat using Guid(b34fc0b1b5d6b3b429a764eb0fab7de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1999012da055e61bcc3553a64c25493') in 0.014589 seconds 
-  Import took 0.018776 seconds .
+  Time since last request: 0.000126 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/TV02.prefab
+  artifactKey: Guid(ec5bbaee67beb3c4ca7cc0a730d83f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/TV02.prefab using Guid(ec5bbaee67beb3c4ca7cc0a730d83f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2056d6ac77449dae42d4cac71ddbbeb6') in 0.031656 seconds 
+  Import took 0.037120 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004076 seconds.
-  path: Assets/Animations/PlantGrow.anim
-  artifactKey: Guid(e51dc4ffbea2af240986b46f4c7712a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/PlantGrow.anim using Guid(e51dc4ffbea2af240986b46f4c7712a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c2a55d13447538330c4e160994c399') in 0.007732 seconds 
-  Import took 0.011889 seconds .
+  Time since last request: 0.000179 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_01.prefab
+  artifactKey: Guid(798b6b0b8614c1e41bcd0502f5af16e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_01.prefab using Guid(798b6b0b8614c1e41bcd0502f5af16e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d18de115bc09fee33cadabfe28ff3ac') in 0.012248 seconds 
+  Import took 0.017063 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016340 seconds.
-  path: Assets/Scripts/Delay.cs
-  artifactKey: Guid(179b6b1e52d8dea4194aedfe7a76c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Delay.cs using Guid(179b6b1e52d8dea4194aedfe7a76c083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef0a229b52a83085f4460aa5782a00') in 0.010889 seconds 
-  Import took 0.015074 seconds .
+  Time since last request: 0.000210 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/WoodenBox01.prefab
+  artifactKey: Guid(20a8af41307b8ba419151af0285117b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/WoodenBox01.prefab using Guid(20a8af41307b8ba419151af0285117b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304c7e217d4a3d9f147fd35437ec47cf') in 0.036799 seconds 
+  Import took 0.041260 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015552 seconds.
-  path: Assets/Models/Sprinkler/textures/sprinkler_Material_Albedo.png
-  artifactKey: Guid(9395c7ffcffcd2547b7c32a97c8fa26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Sprinkler/textures/sprinkler_Material_Albedo.png using Guid(9395c7ffcffcd2547b7c32a97c8fa26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1be221f965714e6fb3f1fb2a474b606') in 0.011247 seconds 
-  Import took 0.016091 seconds .
+  Time since last request: 0.000199 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plant02.prefab
+  artifactKey: Guid(27f9c34050bd04845842b4b460aef3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plant02.prefab using Guid(27f9c34050bd04845842b4b460aef3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2984eb364ce326f4e666759e0ee144') in 0.012183 seconds 
+  Import took 0.016348 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007003 seconds.
-  path: Assets/Models/Pot/textures/Sprout_Metallic.png
-  artifactKey: Guid(322cc5b11b5c0144caf64c9e000452bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pot/textures/Sprout_Metallic.png using Guid(322cc5b11b5c0144caf64c9e000452bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ff8a119b18f2399313b97c532116a2') in 0.007607 seconds 
-  Import took 0.011808 seconds .
+  Time since last request: 0.000130 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/TV01.prefab
+  artifactKey: Guid(f9337b9bc782b38409b89ead74bdb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/TV01.prefab using Guid(f9337b9bc782b38409b89ead74bdb44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a701c36f763014e7085facacb7271') in 0.014431 seconds 
+  Import took 0.019035 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012217 seconds.
-  path: Assets/Scripts/AnimateObjectScale.cs
-  artifactKey: Guid(dcf1af22ef23372488bef3b343bb1046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimateObjectScale.cs using Guid(dcf1af22ef23372488bef3b343bb1046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a67c13920479683f2d463d13fdd0f71') in 0.003735 seconds 
-  Import took 0.007949 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_old_01.prefab
+  artifactKey: Guid(dd4efce371c3b954d998e7458fd022ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_old_01.prefab using Guid(dd4efce371c3b954d998e7458fd022ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eb2485d3cf16f7d913ea8ff2cc0a04') in 0.016165 seconds 
+  Import took 0.020828 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004076 seconds.
-  path: Assets/Shaders/WaterFountain.shadergraph
-  artifactKey: Guid(5fc0d71fcf4983b4ba89aca720947c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/WaterFountain.shadergraph using Guid(5fc0d71fcf4983b4ba89aca720947c6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaadbd62dcde802aa20e5b08153ead84') in 0.005101 seconds 
-  Import took 0.009189 seconds .
+  Time since last request: 0.000169 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_old_02.prefab
+  artifactKey: Guid(c7acedaa200e80d4b989aadd5fc8b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/WoodenBarrel_old_02.prefab using Guid(c7acedaa200e80d4b989aadd5fc8b3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e868bc673d1109fea95740fdfc55c3ea') in 0.020012 seconds 
+  Import took 0.024599 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003579 seconds.
-  path: Assets/Scripts/AnimatedMaterialFloatSetter.cs
-  artifactKey: Guid(f8f4a847e303cde4e89a3a01df6f720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/AnimatedMaterialFloatSetter.cs using Guid(f8f4a847e303cde4e89a3a01df6f720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40772c7d0efe80ed657a77d094e55da1') in 0.003823 seconds 
-  Import took 0.008182 seconds .
+  Time since last request: 0.000228 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Pallet.prefab
+  artifactKey: Guid(5ff3688c3aaaf3641b371d9b928b17c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Pallet.prefab using Guid(5ff3688c3aaaf3641b371d9b928b17c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5447bd656b9b1548638d342ca5b8db6c') in 0.014969 seconds 
+  Import took 0.019644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024470 seconds.
-  path: Assets/Shaders/Liquid.shadergraph
-  artifactKey: Guid(8be250847617fa940acf8210a6b6aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/Liquid.shadergraph using Guid(8be250847617fa940acf8210a6b6aeb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c9154b154fa9b3e50914576edeaf85f') in 0.005140 seconds 
-  Import took 0.009718 seconds .
+  Time since last request: 0.000151 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Cup01.prefab
+  artifactKey: Guid(dc80d6cef21b73f4bb98c4e0bd3743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Cup01.prefab using Guid(dc80d6cef21b73f4bb98c4e0bd3743de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0054d68b5fffc5c4762c54708a811370') in 0.027500 seconds 
+  Import took 0.032131 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.062427 seconds.
-  path: Assets/Models/Pot/textures/Sprout_BaseColor.png
-  artifactKey: Guid(ee343a042745bfc479a4d0508836d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Pot/textures/Sprout_BaseColor.png using Guid(ee343a042745bfc479a4d0508836d141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad53710d701b88eed8d620ba824ee6') in 0.008301 seconds 
-  Import took 0.012588 seconds .
+  Time since last request: 0.000191 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Cup03.prefab
+  artifactKey: Guid(6e6094132600af743bfe363ec199ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Cup03.prefab using Guid(6e6094132600af743bfe363ec199ada0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb68f7e038c0f84046fd0ac172f5d540') in 0.006287 seconds 
+  Import took 0.010850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007328 seconds.
-  path: Assets/Models/Sprinkler/textures/sprinkler_Material_Normal.png
-  artifactKey: Guid(44aa88ac1e729a145aac069fb9dbb369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Sprinkler/textures/sprinkler_Material_Normal.png using Guid(44aa88ac1e729a145aac069fb9dbb369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6b35877d9980679f59ed305ee8f372') in 0.012686 seconds 
-  Import took 0.017067 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Laptop.prefab
+  artifactKey: Guid(696bcc4dc63e93948bb80d5f7134b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Laptop.prefab using Guid(696bcc4dc63e93948bb80d5f7134b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93bbdc52654a298e7c870e2890cab40d') in 0.013568 seconds 
+  Import took 0.018371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1847.603580 seconds.
-  path: Assets/Shaders/OpaqueDissolveY.shadergraph
-  artifactKey: Guid(834e6f69090b0854fa7f13d336255af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/OpaqueDissolveY.shadergraph using Guid(834e6f69090b0854fa7f13d336255af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d11ad31dfd45b02daea36e1bd83601') in 0.005156 seconds 
-  Import took 0.011090 seconds .
+  Time since last request: 0.000116 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Vase01.prefab
+  artifactKey: Guid(5e7eda18bcf459946baa2a95c7d8e2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Vase01.prefab using Guid(5e7eda18bcf459946baa2a95c7d8e2d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274554eba5c8fc8f2b0edd3ad1280662') in 0.011275 seconds 
+  Import took 0.016123 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.095301 seconds.
-  path: Assets/Shaders/TuringDissolve.shadergraph
-  artifactKey: Guid(52065fd521a4ebd4580b8d495d326cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Shaders/TuringDissolve.shadergraph using Guid(52065fd521a4ebd4580b8d495d326cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d37f2a87439cf4384b8d7ff60d746c4') in 0.005924 seconds 
-  Import took 0.010706 seconds .
+  Time since last request: 0.000167 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/WoodenBox02.prefab
+  artifactKey: Guid(84ef37ca2bf99da438827fd43eb2e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/WoodenBox02.prefab using Guid(84ef37ca2bf99da438827fd43eb2e193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f37eec4758e6e9a1d6181c47172023') in 0.010427 seconds 
+  Import took 0.014940 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Cup02.prefab
+  artifactKey: Guid(5c22a3e08c8df4f45a9678f6c089ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Cup02.prefab using Guid(5c22a3e08c8df4f45a9678f6c089ed5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824f879f7f5ac5327a843c5b77ab8d7a') in 0.005052 seconds 
+  Import took 0.009633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Bottle02.prefab
+  artifactKey: Guid(8e97f4742ba56414cb44c259c0e49242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Bottle02.prefab using Guid(8e97f4742ba56414cb44c259c0e49242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62b8607626a896581d3fd6fdef17e46') in 0.006578 seconds 
+  Import took 0.011492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plate01.prefab
+  artifactKey: Guid(c45bd795b7a8e834c9cf4bab587ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plate01.prefab using Guid(c45bd795b7a8e834c9cf4bab587ddd5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21df3b5e8463f5f8d6cdf5cda63e4450') in 0.006028 seconds 
+  Import took 0.010214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Watermelon.prefab
+  artifactKey: Guid(19c530c8962715b4da05a06037542260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Watermelon.prefab using Guid(19c530c8962715b4da05a06037542260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489d9d332af54e061ae5d6732d35f277') in 0.005743 seconds 
+  Import took 0.009980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plate04.prefab
+  artifactKey: Guid(eff9ed1843068254a9a1f9cfb9d09de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plate04.prefab using Guid(eff9ed1843068254a9a1f9cfb9d09de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cabc753ee839b8b225a1ae62af50d2') in 0.006707 seconds 
+  Import took 0.011598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/MetalBarrel.prefab
+  artifactKey: Guid(954f2cf64e727fa44bd753a2dd261853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/MetalBarrel.prefab using Guid(954f2cf64e727fa44bd753a2dd261853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf005123ec10bc910e64263f5ad8235') in 0.010271 seconds 
+  Import took 0.014820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plant03.prefab
+  artifactKey: Guid(e9dac4b5803cef04b997113ab968c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plant03.prefab using Guid(e9dac4b5803cef04b997113ab968c22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cee341e6fa0aa95924119dbd8456d7e') in 0.028047 seconds 
+  Import took 0.032152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plant01.prefab
+  artifactKey: Guid(5ca3a14e2f544bb499f8364e4e709c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plant01.prefab using Guid(5ca3a14e2f544bb499f8364e4e709c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2111c15f13393b538d179948ee7bf356') in 0.006078 seconds 
+  Import took 0.011387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plate02.prefab
+  artifactKey: Guid(ec461f7866e196842913e819b9f2b750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plate02.prefab using Guid(ec461f7866e196842913e819b9f2b750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fbfe9c638b9ba2f41ff9df1be413d5') in 0.005635 seconds 
+  Import took 0.010567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/CorridorLamp_simple.prefab
+  artifactKey: Guid(dfb3c3b8decc25e45949ad809e338b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/CorridorLamp_simple.prefab using Guid(dfb3c3b8decc25e45949ad809e338b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff9f07c14eaf722e3d7c9e4fbe514ea') in 0.008343 seconds 
+  Import took 0.012848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Melon.prefab
+  artifactKey: Guid(23c56506b55c31e40ba15b913171be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Melon.prefab using Guid(23c56506b55c31e40ba15b913171be7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af6114f1df98d7eeb3f134a43f9344') in 0.006360 seconds 
+  Import took 0.010949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/CorridorLamp.prefab
+  artifactKey: Guid(c6af77b585829434584cee4c791ad97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/CorridorLamp.prefab using Guid(c6af77b585829434584cee4c791ad97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f085d754211f2854f47d8cdfdc062a2') in 0.014640 seconds 
+  Import took 0.019460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/DeskLamp.prefab
+  artifactKey: Guid(2a6d1559a148af54db3fa4e94d17f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/DeskLamp.prefab using Guid(2a6d1559a148af54db3fa4e94d17f677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3179048b75e7db952c0556fc24f7e149') in 0.006587 seconds 
+  Import took 0.011248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/DestructibleProps/Prefabs_indestructible/Plate03.prefab
+  artifactKey: Guid(bcd5f071067a8424eadf7317e4641cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_indestructible/Plate03.prefab using Guid(bcd5f071067a8424eadf7317e4641cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb5f53e14069f9a233bd8b8188ddfee') in 0.005770 seconds 
+  Import took 0.010560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.956746 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Bottle01_d.prefab
+  artifactKey: Guid(8312bca6d9cb56c41b6980cc58b4b87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Bottle01_d.prefab using Guid(8312bca6d9cb56c41b6980cc58b4b87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b15ba2e3dc5a36fe8003fd897933baf') in 0.008666 seconds 
+  Import took 0.014059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Vase02_d.prefab
+  artifactKey: Guid(40b3225b32ac17049933c242f0d7aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Vase02_d.prefab using Guid(40b3225b32ac17049933c242f0d7aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff59f1cac821652d61372f1116a4416') in 0.016969 seconds 
+  Import took 0.021908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/VaseSmall_d.prefab
+  artifactKey: Guid(d4fc805ad2541d941aeca434f878faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/VaseSmall_d.prefab using Guid(d4fc805ad2541d941aeca434f878faa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942bdeff05126bd8374543ecbda198f5') in 0.014689 seconds 
+  Import took 0.019651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Cup03_d.prefab
+  artifactKey: Guid(d92a0e6d986887c4c88561d8e24a2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Cup03_d.prefab using Guid(d92a0e6d986887c4c88561d8e24a2313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53ab45a1dec2748a4c4a3cffeb83142a') in 0.005703 seconds 
+  Import took 0.010049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Melon_d.prefab
+  artifactKey: Guid(47896b0afcbc91a4ebb12a346c9b656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Melon_d.prefab using Guid(47896b0afcbc91a4ebb12a346c9b656b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86621fb1227f820b8b70c26bdcd972dc') in 0.008448 seconds 
+  Import took 0.013494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/CorridorLamp_d_simple.prefab
+  artifactKey: Guid(5f3ae70ac0cc8664bb168bb78152bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/CorridorLamp_d_simple.prefab using Guid(5f3ae70ac0cc8664bb168bb78152bd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194742fb3b84961020d5cf7c0727191d') in 0.010429 seconds 
+  Import took 0.014979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Laptop_d.prefab
+  artifactKey: Guid(0ea23afb0e70a5d43ac42c1afe372b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Laptop_d.prefab using Guid(0ea23afb0e70a5d43ac42c1afe372b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a491c9a307c9d23cf711d53e4b1e2f5e') in 0.015530 seconds 
+  Import took 0.020717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBox02_old_d.prefab
+  artifactKey: Guid(595c913cbab38024997d362474498862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBox02_old_d.prefab using Guid(595c913cbab38024997d362474498862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b685f0b59332a7c8896a88fff4753') in 0.011093 seconds 
+  Import took 0.015905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/TV02_d.prefab
+  artifactKey: Guid(f8fd443ccb205624da8760a211bf7de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/TV02_d.prefab using Guid(f8fd443ccb205624da8760a211bf7de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d50c53266d5e96802156c879421d3c7') in 0.017050 seconds 
+  Import took 0.021766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/TV01_d.prefab
+  artifactKey: Guid(d7e3e5299b2b5344ea988c2c874a9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/TV01_d.prefab using Guid(d7e3e5299b2b5344ea988c2c874a9568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b496b53f15482a76d398153a7d9a04d') in 0.013458 seconds 
+  Import took 0.018287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Vase01_d.prefab
+  artifactKey: Guid(a2132362c4be1e343b704b1315b839b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Vase01_d.prefab using Guid(a2132362c4be1e343b704b1315b839b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65416ebb099fb554a45d25e98472840') in 0.012219 seconds 
+  Import took 0.017620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Pallet02_d.prefab
+  artifactKey: Guid(e3aeb3cf6266a1f4695edc457eb228a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Pallet02_d.prefab using Guid(e3aeb3cf6266a1f4695edc457eb228a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33b49025a0c18da94367824de145ed75') in 0.010702 seconds 
+  Import took 0.015596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/CorridorLamp_d.prefab
+  artifactKey: Guid(916784e881e16564d88b474efd09eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/CorridorLamp_d.prefab using Guid(916784e881e16564d88b474efd09eefb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8db8f387b71d41fe9e676307c0a431') in 0.009260 seconds 
+  Import took 0.014406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plant01_d.prefab
+  artifactKey: Guid(4d279b6cc8ad5324eadf463aeb416676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plant01_d.prefab using Guid(4d279b6cc8ad5324eadf463aeb416676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baa6db7111b3480a1ec8efb381528571') in 0.007418 seconds 
+  Import took 0.011948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_01_d.prefab
+  artifactKey: Guid(a920904343b85a64cb0b414550685b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_01_d.prefab using Guid(a920904343b85a64cb0b414550685b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a4b3e78e17d18f090e347fabe0e5b33') in 0.017267 seconds 
+  Import took 0.022261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBox02_d.prefab
+  artifactKey: Guid(451a2628eb627bf48bc3b2ace44cf9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBox02_d.prefab using Guid(451a2628eb627bf48bc3b2ace44cf9a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9613bfac8fc59f36f2f5455066a456e5') in 0.010465 seconds 
+  Import took 0.015385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plant02_d.prefab
+  artifactKey: Guid(c3a7414148197dc4bbefd45075251b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plant02_d.prefab using Guid(c3a7414148197dc4bbefd45075251b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25fcd63f95eaa8edfaf461f68b413ad4') in 0.009189 seconds 
+  Import took 0.014221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plant03_d.prefab
+  artifactKey: Guid(d03a23ab87585d14296cea223fa7771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plant03_d.prefab using Guid(d03a23ab87585d14296cea223fa7771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f6a7a373baaba492a7954aa3a045d9') in 0.010704 seconds 
+  Import took 0.015898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_old_01_d.prefab
+  artifactKey: Guid(3df12430fdbc46144abc51bf8f4c7f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_old_01_d.prefab using Guid(3df12430fdbc46144abc51bf8f4c7f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29cddf4f538b9cb24871ca841eb7124b') in 0.014096 seconds 
+  Import took 0.019986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBox_exp_d.prefab
+  artifactKey: Guid(46e7bca742d2701459b6fa65939b91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBox_exp_d.prefab using Guid(46e7bca742d2701459b6fa65939b91f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac645cf8a326e1947b5b0f183de397e') in 0.017098 seconds 
+  Import took 0.023464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plate04_d.prefab
+  artifactKey: Guid(4de633a61f4cc7246bb14fe4657e677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plate04_d.prefab using Guid(4de633a61f4cc7246bb14fe4657e677b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fec495eac6d464d515630e6d3bf3aba6') in 0.006542 seconds 
+  Import took 0.011577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_old_02_d.prefab
+  artifactKey: Guid(4637ea1093a65274e852e61fa5c92e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBarrel_old_02_d.prefab using Guid(4637ea1093a65274e852e61fa5c92e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514e94cbf05f57fb57c05e1e3fd4987d') in 0.014605 seconds 
+  Import took 0.020640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Bottle02_d.prefab
+  artifactKey: Guid(a58f5b23ee7db3242ad7177a34f66730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Bottle02_d.prefab using Guid(a58f5b23ee7db3242ad7177a34f66730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1139cc7c357ebab6e50d0e3f3d93c219') in 0.006673 seconds 
+  Import took 0.011368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plate01_d.prefab
+  artifactKey: Guid(086c191af60c01344a0993ff26c13e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plate01_d.prefab using Guid(086c191af60c01344a0993ff26c13e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aeed37c4408675f2421acea3b402d57') in 0.007844 seconds 
+  Import took 0.013095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBox01_d.prefab
+  artifactKey: Guid(dfa43203af9b68c49ab4b0dd7429dbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBox01_d.prefab using Guid(dfa43203af9b68c49ab4b0dd7429dbfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192459673f748adce589c2c0791cc42c') in 0.012259 seconds 
+  Import took 0.017360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Bottle03_d.prefab
+  artifactKey: Guid(ce6d4c232ad38e044957eceff41ef576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Bottle03_d.prefab using Guid(ce6d4c232ad38e044957eceff41ef576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acdd62d7e09ea34e45aa72ce806d5e0') in 0.009531 seconds 
+  Import took 0.014426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Rabbit_d.prefab
+  artifactKey: Guid(0a2630fa599d8234c845277a51369d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Rabbit_d.prefab using Guid(0a2630fa599d8234c845277a51369d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d04a642d79355825e8dbacbb1ff347') in 0.011504 seconds 
+  Import took 0.016532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/StatueGirl_d.prefab
+  artifactKey: Guid(50c86d66aede42d42a1730d863f14c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/StatueGirl_d.prefab using Guid(50c86d66aede42d42a1730d863f14c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabef0e4fb8940626d3319ec911c2356') in 0.013856 seconds 
+  Import took 0.018860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/WoodenBox_old_d.prefab
+  artifactKey: Guid(22581537fb982504a804f77e4a833715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/WoodenBox_old_d.prefab using Guid(22581537fb982504a804f77e4a833715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c754d6a2ace161a0dd560171afdf4011') in 0.012151 seconds 
+  Import took 0.017267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/MetalBarrel_d.prefab
+  artifactKey: Guid(6141898f9391f7f43a882ab8edf19642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/MetalBarrel_d.prefab using Guid(6141898f9391f7f43a882ab8edf19642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53118a0d265e9b652fee19f55fc01664') in 0.016237 seconds 
+  Import took 0.022389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Cup02_d.prefab
+  artifactKey: Guid(6cabe318ef47e924ea2f50705a6db360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Cup02_d.prefab using Guid(6cabe318ef47e924ea2f50705a6db360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc827977b58d3db74d6991130ae1fbec') in 0.005611 seconds 
+  Import took 0.010121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plate02_d.prefab
+  artifactKey: Guid(c0f4364cba62dd048be1d48532eb13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plate02_d.prefab using Guid(c0f4364cba62dd048be1d48532eb13dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f08157553f4c5953531747b544fced') in 0.007839 seconds 
+  Import took 0.012728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Pallet_d.prefab
+  artifactKey: Guid(4562e9a45a9386844a6d0a1be78ab22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Pallet_d.prefab using Guid(4562e9a45a9386844a6d0a1be78ab22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f7cbef1b9014de9fc85ca2aeb76774') in 0.011209 seconds 
+  Import took 0.016157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Plate03_d.prefab
+  artifactKey: Guid(62596cc800d615146b8369108a8b1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Plate03_d.prefab using Guid(62596cc800d615146b8369108a8b1cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdace16f8a26effe360292bad3ca689') in 0.016533 seconds 
+  Import took 0.025876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/DeskLamp_d.prefab
+  artifactKey: Guid(d78fbc62fb222fc4b8821b02d232cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/DeskLamp_d.prefab using Guid(d78fbc62fb222fc4b8821b02d232cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660370c31194ad9dab837997af9d290e') in 0.008448 seconds 
+  Import took 0.013610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Cup01_d.prefab
+  artifactKey: Guid(f8564a79316cad14b9da2785b2e0bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Cup01_d.prefab using Guid(f8564a79316cad14b9da2785b2e0bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22534e55ac246f4d70e8e4ff3e21af57') in 0.006629 seconds 
+  Import took 0.011853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/DestructibleProps/Prefabs_destructible/Watermelon_d.prefab
+  artifactKey: Guid(6f0160809ea242e44a43d206495463c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Prefabs_destructible/Watermelon_d.prefab using Guid(6f0160809ea242e44a43d206495463c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87398b6d3d6c0a0e0c9284d3dc445f0') in 0.007101 seconds 
+  Import took 0.011616 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 173.9 MB.
+System memory in use after: 174.2 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 2.892800 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.151100 ms MarkObjects: 2.365400 ms  DeleteObjects: 0.041200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003142 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.0 MB.
+System memory in use after: 174.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 2.495100 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.137100 ms MarkObjects: 2.080600 ms  DeleteObjects: 0.020000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 923.029990 seconds.
+  path: Assets/Scripts/ObjectCollisionDetector.cs
+  artifactKey: Guid(1b446cbf0dc95f54e90400eea0ca8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObjectCollisionDetector.cs using Guid(1b446cbf0dc95f54e90400eea0ca8381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499f56c0e9f09582d3a298c7a6fce219') in 0.009928 seconds 
+  Import took 0.015469 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003334 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.897 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3187 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 174.1 MB.
+System memory in use after: 174.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3891.
+Total: 2.261400 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.126500 ms MarkObjects: 1.859800 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1555.122714 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp_broken.FBX
+  artifactKey: Guid(2d38fe4f15635b645b740c611aa96077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp_broken.FBX using Guid(2d38fe4f15635b645b740c611aa96077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deef6fb7c818e666aa74615c624d910') in 0.296619 seconds 
+  Import took 0.302917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House02_WithInterior.prefab
+  artifactKey: Guid(e4f8b723156563d4fa69e928740a1dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House02_WithInterior.prefab using Guid(e4f8b723156563d4fa69e928740a1dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95afe835ee3d9c792815a0c4406d7cb') in 0.263406 seconds 
+  Import took 0.274056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/Door_White.FBX
+  artifactKey: Guid(611c7e4d799c9fc43b2f375415bd4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/Door_White.FBX using Guid(611c7e4d799c9fc43b2f375415bd4a88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc63b407d9349f156e6e794e62166bd') in 0.014052 seconds 
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/House_Furniture_Pack/Meshes/Fireplace_Extra_Chimneypiece.FBX
+  artifactKey: Guid(f4820808531b4654e90b55f7cec5aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Meshes/Fireplace_Extra_Chimneypiece.FBX using Guid(f4820808531b4654e90b55f7cec5aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63668792813026c82739fe5edfeb053f') in 0.036681 seconds 
+  Import took 0.042393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/KitCabinet_LoUp_High.prefab
+  artifactKey: Guid(b600efb99aab96c47859cc2818aae2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/KitCabinet_LoUp_High.prefab using Guid(b600efb99aab96c47859cc2818aae2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89d6992d743cc21e92d29b1a67c7455') in 0.034959 seconds 
+  Import took 0.040274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_WithInterior/In_Wall_Door_Garage_B_5x_High.prefab
+  artifactKey: Guid(2046946a007f6a146a96a74872ec30f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_WithInterior/In_Wall_Door_Garage_B_5x_High.prefab using Guid(2046946a007f6a146a96a74872ec30f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bd60e79d8435126d0be633b6fc33c8') in 0.012783 seconds 
+  Import took 0.018476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House01_WithInterior.prefab
+  artifactKey: Guid(b215970fe8660ad409b9575c78c13b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House01_WithInterior.prefab using Guid(b215970fe8660ad409b9575c78c13b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d37e89713796c3e17bbed8a3eeae4b5') in 0.067803 seconds 
+  Import took 0.076200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/Fireplace_Extra_Chimneypiece.prefab
+  artifactKey: Guid(09c4af921b8b43647bfb5f568f573099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/Fireplace_Extra_Chimneypiece.prefab using Guid(09c4af921b8b43647bfb5f568f573099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7574b33c8e3ed56766f7da1222765723') in 0.020135 seconds 
+  Import took 0.025336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Doors/Prefabs_Animated/Door_White_Parent_Anim.prefab
+  artifactKey: Guid(64a6db3dfcb088b4486202a3a4ef3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Doors/Prefabs_Animated/Door_White_Parent_Anim.prefab using Guid(64a6db3dfcb088b4486202a3a4ef3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc70693d5cf8407afc6f0815c75242b6') in 0.006878 seconds 
+  Import took 0.011735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/House_Furniture_Pack/Meshes/KitCabinet_LoUp_High.FBX
+  artifactKey: Guid(06b2d4d52c2094343a33cbe43fd5bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Meshes/KitCabinet_LoUp_High.FBX using Guid(06b2d4d52c2094343a33cbe43fd5bdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4abefad4b9fe1374b4ed0f7d34b0816b') in 0.018848 seconds 
+  Import took 0.026242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Fireplace_Extra_Chimney.prefab
+  artifactKey: Guid(e71b84c274ac2384ab23b1d07ce827cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Props/Prefabs_Props/Fireplace_Extra_Chimney.prefab using Guid(e71b84c274ac2384ab23b1d07ce827cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa73b2cbcfa437c0f74b11dcb23b3faf') in 0.023954 seconds 
+  Import took 0.029234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/In_Wall_Door_Garage_B_5x_High.FBX
+  artifactKey: Guid(858a082156f74f845ba32753e91d20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/In_Wall_Door_Garage_B_5x_High.FBX using Guid(858a082156f74f845ba32753e91d20b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d732d70bc6dfeee5f559c4d043ad3e9') in 0.015483 seconds 
+  Import took 0.020708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/In_Wall_Door_Garage_A_4x_High.FBX
+  artifactKey: Guid(51bf20afce76ef540952001f92e82c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/In_Wall_Door_Garage_A_4x_High.FBX using Guid(51bf20afce76ef540952001f92e82c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122993abf52544b6a88f3e75b034fd55') in 0.014220 seconds 
+  Import took 0.019209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_WithInterior/In_Wall_Door_Garage_A_4x_High.prefab
+  artifactKey: Guid(418092d3a181484408336d5fa2dc39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_WithInterior/In_Wall_Door_Garage_A_4x_High.prefab using Guid(418092d3a181484408336d5fa2dc39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceeab97f2bb5d897049e473d831986a6') in 0.013108 seconds 
+  Import took 0.017926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Doors/Prefabs_Static/Door_White_Parent.prefab
+  artifactKey: Guid(95d570dd2ebc8354a9d9bfaf8956b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Doors/Prefabs_Static/Door_White_Parent.prefab using Guid(95d570dd2ebc8354a9d9bfaf8956b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b5d34ea8deda95635547077c4d569d') in 0.007099 seconds 
+  Import took 0.012297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House03_WithInterior_Basement.prefab
+  artifactKey: Guid(bc3c5b0e9da26604b97f2bc1425356fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Houses_Premade/Prefabs_PiecesInteriors/House03_WithInterior_Basement.prefab using Guid(bc3c5b0e9da26604b97f2bc1425356fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc137ee932ce9767608a2757abd4d13e') in 0.156264 seconds 
+  Import took 0.169157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3081.862124 seconds.
+  path: Assets/Scripts/Highlight
+  artifactKey: Guid(8690fcd879689b0408780029511cabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Highlight using Guid(8690fcd879689b0408780029511cabb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce6143b41993916487798ddfc542595') in 0.001336 seconds 
+  Import took 0.010377 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.4 MB.
+System memory in use after: 175.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3935.
+Total: 2.439400 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.141500 ms MarkObjects: 1.986900 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.151050 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64e9d0600f8611b5ff30b6129789d2d') in 0.114186 seconds 
+  Import took 0.119147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.452120 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47892201bd40406f4d92addcd905683f') in 0.002530 seconds 
+  Import took 0.007875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.085222 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c13088f69c27200a8f7365278a1a9c0') in 0.001954 seconds 
+  Import took 0.006807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.288583 seconds.
+  path: Assets/DestructibleProps/Sounds/BarrelBoom.wav
+  artifactKey: Guid(ef2a8c46935d3354c9ac8ea159de96ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/BarrelBoom.wav using Guid(ef2a8c46935d3354c9ac8ea159de96ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f186a32b54bde0ea2725b186cdbb1') in 0.036516 seconds 
+  Import took 0.041355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/DestructibleProps/Sounds/WatermelonCrush.wav
+  artifactKey: Guid(456f42dd41b6d4c498eea1112d618838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/WatermelonCrush.wav using Guid(456f42dd41b6d4c498eea1112d618838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6ca412e330f720618b770b9c8598ca') in 0.003976 seconds 
+  Import took 0.008664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/DestructibleProps/Sounds/BarrelBoom.wav
+  artifactKey: Guid(ef2a8c46935d3354c9ac8ea159de96ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/BarrelBoom.wav using Guid(ef2a8c46935d3354c9ac8ea159de96ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f186a32b54bde0ea2725b186cdbb1') in 0.003734 seconds 
+  Import took 0.008078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/DestructibleProps/Sounds/BottleCrush.wav
+  artifactKey: Guid(99f1ed0fa8451964195ad9a9709d63c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/BottleCrush.wav using Guid(99f1ed0fa8451964195ad9a9709d63c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812f4378754f422d4fd1cc4e087ecf8e') in 0.005862 seconds 
+  Import took 0.010699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/DestructibleProps/Sounds/VaseCrush.wav
+  artifactKey: Guid(451a35cc05169e9479a8631ba7c6e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/VaseCrush.wav using Guid(451a35cc05169e9479a8631ba7c6e898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89670d84a0bdda32cd615122ba94ce50') in 0.004642 seconds 
+  Import took 0.009665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/DestructibleProps/Sounds/CupCrush.wav
+  artifactKey: Guid(0805920c22e595c44a9969fdaf6df673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/CupCrush.wav using Guid(0805920c22e595c44a9969fdaf6df673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5c50ad70af88d62a73c0d900653ddf') in 0.003555 seconds 
+  Import took 0.007729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/DestructibleProps/Sounds/Fire.wav
+  artifactKey: Guid(739752dd5a74f4d45b1b38aa599f493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/Fire.wav using Guid(739752dd5a74f4d45b1b38aa599f493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae010500ef206c03c17b9406d46feac9') in 0.005141 seconds 
+  Import took 0.010038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/DestructibleProps/Sounds/TV01_Crush.wav
+  artifactKey: Guid(771b51d42b766d14288f1e07597c77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/TV01_Crush.wav using Guid(771b51d42b766d14288f1e07597c77d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f99f5964c73737b7701415f1fba674c') in 0.004911 seconds 
+  Import took 0.010400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/DestructibleProps/Sounds/WoodenBox.wav
+  artifactKey: Guid(f1ac061ef875ca24686e045a459c58eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/WoodenBox.wav using Guid(f1ac061ef875ca24686e045a459c58eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5be3030986332523ff91808b04dae3') in 0.003740 seconds 
+  Import took 0.008143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DestructibleProps/Sounds/WoodenBox02.wav
+  artifactKey: Guid(8bbbc6bd8aaa1614b980e094b4dc7d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/WoodenBox02.wav using Guid(8bbbc6bd8aaa1614b980e094b4dc7d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b092c6a93caff1956d68576b415a29') in 0.003920 seconds 
+  Import took 0.008334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/DestructibleProps/Sounds/LampCrush.wav
+  artifactKey: Guid(36b05be39ee13914d881116a2b303225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/LampCrush.wav using Guid(36b05be39ee13914d881116a2b303225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7e6874c9233a4d734791272e129d3e') in 0.005340 seconds 
+  Import took 0.010488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/DestructibleProps/Sounds/PlantsCrush.wav
+  artifactKey: Guid(08ae7da938047b44093bee7ef97ced7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/PlantsCrush.wav using Guid(08ae7da938047b44093bee7ef97ced7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90860d56ad5daee00d2668961274581') in 0.004062 seconds 
+  Import took 0.009039 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/DestructibleProps/Sounds/PlateCrush.wav
+  artifactKey: Guid(562fdf1453981054cb7a118ace622c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/PlateCrush.wav using Guid(562fdf1453981054cb7a118ace622c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e795ca2b22347e856fdcd80f3ecdee') in 0.003843 seconds 
+  Import took 0.008301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/DestructibleProps/Sounds/LaptopCrush.wav
+  artifactKey: Guid(c5c0dcee7b766264385256df9d4e36b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Sounds/LaptopCrush.wav using Guid(c5c0dcee7b766264385256df9d4e36b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49340b41ac7270d8e1f9a4e2a0908694') in 0.004187 seconds 
+  Import took 0.009074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.652979 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '209eebf3c7da98432774f8a243c43cf4') in 0.001213 seconds 
+  Import took 0.005641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.254104 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715bce415cbd7da92fcd6640bbfc4812') in 0.001883 seconds 
+  Import took 0.006544 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003403 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3942.
+Total: 2.686100 ms (FindLiveObjects: 0.338600 ms CreateObjectMapping: 0.169300 ms MarkObjects: 2.160500 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.5 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3946.
+Total: 5.483400 ms (FindLiveObjects: 0.784600 ms CreateObjectMapping: 0.438200 ms MarkObjects: 4.232600 ms  DeleteObjects: 0.026600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2910.181243 seconds.
+  path: Assets/Scripts/Highlight/LayermaskHighlight.cs
+  artifactKey: Guid(f8f3411f24c939e46a81a0f505ba3ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Highlight/LayermaskHighlight.cs using Guid(f8f3411f24c939e46a81a0f505ba3ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec8d1ecfcb848fc750efd284164bf90') in 0.004996 seconds 
+  Import took 0.011212 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003578 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.990 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3950.
+Total: 5.419700 ms (FindLiveObjects: 0.510600 ms CreateObjectMapping: 0.383700 ms MarkObjects: 4.502400 ms  DeleteObjects: 0.021900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.035 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3954.
+Total: 2.728100 ms (FindLiveObjects: 0.329000 ms CreateObjectMapping: 0.183900 ms MarkObjects: 2.199500 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3958.
+Total: 2.796100 ms (FindLiveObjects: 0.400500 ms CreateObjectMapping: 0.238100 ms MarkObjects: 2.141700 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3962.
+Total: 2.929600 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.170600 ms MarkObjects: 2.415400 ms  DeleteObjects: 0.017400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003377 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3966.
+Total: 2.560000 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.161000 ms MarkObjects: 2.062500 ms  DeleteObjects: 0.015200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.997 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3970.
+Total: 2.422300 ms (FindLiveObjects: 0.294500 ms CreateObjectMapping: 0.173000 ms MarkObjects: 1.940500 ms  DeleteObjects: 0.013500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 406.449788 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Particles/Particles_Fog.prefab
+  artifactKey: Guid(9d8ae09f58e86ab48a921cc41506f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Particles/Particles_Fog.prefab using Guid(9d8ae09f58e86ab48a921cc41506f4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4521379801c1e122ba59533e1d870fd2') in 0.329585 seconds 
+  Import took 0.336797 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.6 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3974.
+Total: 3.818200 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 0.236400 ms MarkObjects: 3.060800 ms  DeleteObjects: 0.020600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.7 MB.
+System memory in use after: 175.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3978.
+Total: 2.409900 ms (FindLiveObjects: 0.296800 ms CreateObjectMapping: 0.145700 ms MarkObjects: 1.953200 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.473311 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/Book_Set_BookShelf_B.prefab
+  artifactKey: Guid(d6c21d723c2d5c64c85c83225b8cf1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/Book_Set_BookShelf_B.prefab using Guid(d6c21d723c2d5c64c85c83225b8cf1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae10b125438b42c66ff20bb58be33497') in 0.206570 seconds 
+  Import took 0.211214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/DestructibleProps/DemoScene/BulletPrefab01.prefab
+  artifactKey: Guid(46e8ba505d1701246ba9256bea609195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/BulletPrefab01.prefab using Guid(46e8ba505d1701246ba9256bea609195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fad8fd38300a5c7c1148544914437a') in 0.008103 seconds 
+  Import took 0.012689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/DestructibleProps/DemoScene/BulletPrefab03.prefab
+  artifactKey: Guid(472d5dbeb53d3374ab51378f68993b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/BulletPrefab03.prefab using Guid(472d5dbeb53d3374ab51378f68993b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df83a66e6a1b3d624054576feb4959a') in 0.004737 seconds 
+  Import took 0.009489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/DestructibleProps/DemoScene/BulletPrefab02.prefab
+  artifactKey: Guid(279621764d8cf3746a7c7b7aeb5a9d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/BulletPrefab02.prefab using Guid(279621764d8cf3746a7c7b7aeb5a9d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68ae11c9451283aa913f5c757effd07') in 0.005145 seconds 
+  Import took 0.009694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97469994b8252793a840867def15fbc8') in 0.002019 seconds 
+  Import took 0.006458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/Book_Set_BookShelf_A.prefab
+  artifactKey: Guid(142be61997f6e5548b889250b85833bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/Book_Set_BookShelf_A.prefab using Guid(142be61997f6e5548b889250b85833bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd684a519730452fbf986c22838dcdf56') in 0.012279 seconds 
+  Import took 0.017996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.615978 seconds.
+  path: Assets/Shaders/ObjectHighlightUnlit.shadergraph
+  artifactKey: Guid(8839bf220bf816141a0aa1daee4d084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ObjectHighlightUnlit.shadergraph using Guid(8839bf220bf816141a0aa1daee4d084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16195c11cb55df914c561cc8aac49d4c') in 0.006331 seconds 
+  Import took 0.013788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256566 seconds.
+  path: Assets/Shaders/ObjectHighlightUnlit.shadergraph
+  artifactKey: Guid(8839bf220bf816141a0aa1daee4d084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/ObjectHighlightUnlit.shadergraph using Guid(8839bf220bf816141a0aa1daee4d084b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16195c11cb55df914c561cc8aac49d4c') in 0.001931 seconds 
+  Import took 0.008302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.761254 seconds.
+  path: Assets/House_Furniture_Pack/Meshes/Sofa_House.FBX
+  artifactKey: Guid(2d6b26fd7675d134f9c92fd43946555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Meshes/Sofa_House.FBX using Guid(2d6b26fd7675d134f9c92fd43946555b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de488cb57b5d399687baf294b87c9cbb') in 0.104623 seconds 
+  Import took 0.111351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/House_Furniture_Pack/Meshes/WashingPowder.FBX
+  artifactKey: Guid(ad4355cd4b9e8eb4aad84abf2ee14a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Meshes/WashingPowder.FBX using Guid(ad4355cd4b9e8eb4aad84abf2ee14a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77cff0d02fcb4fbc4dbe3ac5cd52834') in 0.020061 seconds 
+  Import took 0.025542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/House_Furniture_Pack/Meshes/WashingMachine.FBX
+  artifactKey: Guid(493dd9c158e12f94da1c0fada47c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Meshes/WashingMachine.FBX using Guid(493dd9c158e12f94da1c0fada47c5e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0064cfeb55612494335e4f31fa655c') in 0.012715 seconds 
+  Import took 0.017654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/Wall_Chimney.FBX
+  artifactKey: Guid(2f14f421731bc5a4c856018fbd9ed297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Meshes/Wall_Chimney.FBX using Guid(2f14f421731bc5a4c856018fbd9ed297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22519976464286aa14149d4d5dc09e66') in 0.022599 seconds 
+  Import took 0.027717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_OnlyExterior/Wall_Chimney.prefab
+  artifactKey: Guid(e0ce6472311d7b847937f994992b3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuburbNeighborhoodHousePack/Models/Houses/Prefabs/Walls_OnlyExterior/Wall_Chimney.prefab using Guid(e0ce6472311d7b847937f994992b3b78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dafa1a75a2f6a99a3e9547983566d46') in 0.011671 seconds 
+  Import took 0.017211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/WashingPowder.prefab
+  artifactKey: Guid(0ccaac7d8c17a7749b42a426ac7be7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/WashingPowder.prefab using Guid(0ccaac7d8c17a7749b42a426ac7be7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87928ea827f521db6d7c6d40f6599f83') in 0.008359 seconds 
+  Import took 0.013699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/House_Furniture_Pack/Prefabs/WashingMachine.prefab
+  artifactKey: Guid(3d89f3f37c3cb1b418e3a010652d559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/House_Furniture_Pack/Prefabs/WashingMachine.prefab using Guid(3d89f3f37c3cb1b418e3a010652d559f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49443f40887b20ed7d98249d1fe9b147') in 0.010407 seconds 
+  Import took 0.015983 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003428 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4019.
+Total: 4.496600 ms (FindLiveObjects: 0.515800 ms CreateObjectMapping: 0.291600 ms MarkObjects: 3.663900 ms  DeleteObjects: 0.023800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 159.085966 seconds.
+  path: Assets/DestructibleProps/DemoScene/Asphalt.tga
+  artifactKey: Guid(8b6b151fa7193a04faaf907b73c98b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/Asphalt.tga using Guid(8b6b151fa7193a04faaf907b73c98b62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6c95aca2c73cb518e4cfa84d2a5f77') in 0.074747 seconds 
+  Import took 0.080110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/DestructibleProps/DemoScene/Asphalt_N.tga
+  artifactKey: Guid(1932a2718a68dde4f9f83a1d86e11ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/Asphalt_N.tga using Guid(1932a2718a68dde4f9f83a1d86e11ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e40afec3c7a0fcef526c5136e3d9f24') in 0.018405 seconds 
+  Import took 0.024369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/DestructibleProps/DemoScene/Asphalt_spec.tga
+  artifactKey: Guid(34adba804c6e4254baa5382d93e6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/DemoScene/Asphalt_spec.tga using Guid(34adba804c6e4254baa5382d93e6d956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf62f4b2cda1df5077eb3c1996d666d') in 0.007655 seconds 
+  Import took 0.013221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003732 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.048 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 175.9 MB.
+System memory in use after: 176.2 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 4.199200 ms (FindLiveObjects: 0.439300 ms CreateObjectMapping: 0.288300 ms MarkObjects: 3.450900 ms  DeleteObjects: 0.019400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.125350 seconds.
+  path: Assets/Settings/ForwardRenderer.asset
+  artifactKey: Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/ForwardRenderer.asset using Guid(4a8e21d5c33334b11b34a596161b9360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cee13d4ba38fa02f07921311854d59a') in 0.048050 seconds 
+  Import took 0.054152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Shaders/HighlightCoin.mat
+  artifactKey: Guid(e2081fc68bde92045961fb557356fd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/HighlightCoin.mat using Guid(e2081fc68bde92045961fb557356fd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6d799869426dfaeb5d78b38dbacd66') in 0.125338 seconds 
+  Import took 0.131050 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003846 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4066.
+Total: 3.289500 ms (FindLiveObjects: 0.457300 ms CreateObjectMapping: 0.252000 ms MarkObjects: 2.561300 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 127.432906 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle.tga
+  artifactKey: Guid(acae1935642243843b2ba81f22882db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle.tga using Guid(acae1935642243843b2ba81f22882db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6edc92ac487c2115d1a69230deb4bf') in 0.045318 seconds 
+  Import took 0.051159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle03.tga
+  artifactKey: Guid(61398ef1c8ccda8459dc5538d3b1c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle03.tga using Guid(61398ef1c8ccda8459dc5538d3b1c61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24000488e5647551fd648879df1de984') in 0.005226 seconds 
+  Import took 0.011147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle03_N.tga
+  artifactKey: Guid(9096151a6d8ec7841a3889e70ef5289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle03_N.tga using Guid(9096151a6d8ec7841a3889e70ef5289a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc3a0d08fa15cde3ebcf6a555533bd1e') in 0.008294 seconds 
+  Import took 0.013080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle02_spec.tga
+  artifactKey: Guid(0ea168810073d1d4988696a686365e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle02_spec.tga using Guid(0ea168810073d1d4988696a686365e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabcd28617af3ade8a9a88cf1abff4e3') in 0.005406 seconds 
+  Import took 0.010838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle_N.tga
+  artifactKey: Guid(cb29228b8d9ec834e85332e71590234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle_N.tga using Guid(cb29228b8d9ec834e85332e71590234f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb534f30f42b6114350195943a05933') in 0.006547 seconds 
+  Import took 0.011670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle03_spec.tga
+  artifactKey: Guid(cf5f7372986c1c74dbffb208ad4227fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle03_spec.tga using Guid(cf5f7372986c1c74dbffb208ad4227fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119eda8db656adaba2a6c2b1c48ec97c') in 0.005134 seconds 
+  Import took 0.010890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle_spec.tga
+  artifactKey: Guid(237ba6f8beba10d47a9d34568cedc587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle_spec.tga using Guid(237ba6f8beba10d47a9d34568cedc587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79ba1d70be385e145e205fc04ffdcfa') in 0.005559 seconds 
+  Import took 0.012079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle02.tga
+  artifactKey: Guid(ef2f26a180ad0d249ade88c839fe941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle02.tga using Guid(ef2f26a180ad0d249ade88c839fe941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041c87619eb74fc771221f93d6c42847') in 0.005354 seconds 
+  Import took 0.010956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/DestructibleProps/Models/Bottle/Bottle02_N.tga
+  artifactKey: Guid(7f3f0e0eef252e6438ffedd3eaff1b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Bottle/Bottle02_N.tga using Guid(7f3f0e0eef252e6438ffedd3eaff1b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052a490cd443f00e7edd240b5376b2db') in 0.004705 seconds 
+  Import took 0.009722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.842753 seconds.
+  path: Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp.tga
+  artifactKey: Guid(1a33afecb8e62904383eabcdfc6da579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp.tga using Guid(1a33afecb8e62904383eabcdfc6da579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55b7ced5729d1b16ac8d88aae1fa13') in 0.006587 seconds 
+  Import took 0.012226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup01.tga
+  artifactKey: Guid(1ea185dea62397243960ff049ad34e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup01.tga using Guid(1ea185dea62397243960ff049ad34e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d923fd019045f3017aa9cc4dd7b4e6') in 0.004126 seconds 
+  Import took 0.008731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup01_spec.tga
+  artifactKey: Guid(bb94769ee2f17024b90d7dfa49a6d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup01_spec.tga using Guid(bb94769ee2f17024b90d7dfa49a6d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829152afdbf0a0992a4634b65ded57e2') in 0.004621 seconds 
+  Import took 0.009419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup02_spec.tga
+  artifactKey: Guid(b9c1c437b3533624090347de6f0bb603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup02_spec.tga using Guid(b9c1c437b3533624090347de6f0bb603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00748d256fc116d0a3b415637d2579e7') in 0.005562 seconds 
+  Import took 0.011178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup02_N.tga
+  artifactKey: Guid(694b1c24404ca0d4ab69244c3a34ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup02_N.tga using Guid(694b1c24404ca0d4ab69244c3a34ddba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068ba7664bd7e12970b67b17b0bde0e5') in 0.005121 seconds 
+  Import took 0.009695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup02.tga
+  artifactKey: Guid(edb22d50fd478cc44bf0cf733c319107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup02.tga using Guid(edb22d50fd478cc44bf0cf733c319107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692bf06108147dbe0bc00b4f544b37a1') in 0.003775 seconds 
+  Import took 0.008416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_emission.tga
+  artifactKey: Guid(7ab4a0cc412157748848d6d8845aa8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_emission.tga using Guid(7ab4a0cc412157748848d6d8845aa8c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e68b1b44d1572fa36496cdcadb9c31f') in 0.005401 seconds 
+  Import took 0.010970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_spec.tga
+  artifactKey: Guid(6e8337d564bcb724cb3de42245f969d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_spec.tga using Guid(6e8337d564bcb724cb3de42245f969d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6561625bc37f4a868fc2d5b87b3f124') in 0.004527 seconds 
+  Import took 0.009905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp.tga
+  artifactKey: Guid(1a33afecb8e62904383eabcdfc6da579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp.tga using Guid(1a33afecb8e62904383eabcdfc6da579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55b7ced5729d1b16ac8d88aae1fa13') in 0.004439 seconds 
+  Import took 0.010368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_N.tga
+  artifactKey: Guid(58c55d567037ee74db019a3535b9fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/CorridorLamp/CorridorLamp_N.tga using Guid(58c55d567037ee74db019a3535b9fcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52aa8c3b85276f47671c2a08f0d5931') in 0.004966 seconds 
+  Import took 0.011246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup01_N.tga
+  artifactKey: Guid(8729817bb25f21043a03d46e43f66b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup01_N.tga using Guid(8729817bb25f21043a03d46e43f66b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaa3cb958f99a81e9ce1c525c2215f7') in 0.006005 seconds 
+  Import took 0.011651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/DestructibleProps/Models/TableWare/Cup03.tga
+  artifactKey: Guid(99beac10ffac1c54cbda3b2ee465a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TableWare/Cup03.tga using Guid(99beac10ffac1c54cbda3b2ee465a6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68f4b195f9d3ae8a9baaf26d14ebf4f') in 0.003667 seconds 
+  Import took 0.008161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.553674 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp.tga
+  artifactKey: Guid(4d50e143df213404bbdff4a3359d1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp.tga using Guid(4d50e143df213404bbdff4a3359d1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353161271c28a31272ffec9c8e5ed23d') in 0.005293 seconds 
+  Import took 0.010461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp.tga
+  artifactKey: Guid(4d50e143df213404bbdff4a3359d1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp.tga using Guid(4d50e143df213404bbdff4a3359d1b8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353161271c28a31272ffec9c8e5ed23d') in 0.005279 seconds 
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp_emissive.tga
+  artifactKey: Guid(84cda2bcd6edcad469e1f07af8dcb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp_emissive.tga using Guid(84cda2bcd6edcad469e1f07af8dcb4cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0edc70bae199698c0313aa4ef3d435') in 0.004868 seconds 
+  Import took 0.010636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp_spec.tga
+  artifactKey: Guid(68ddc33331143704a9a223aa679fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp_spec.tga using Guid(68ddc33331143704a9a223aa679fc095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d1a8e348549e6811f28906f2394fe9') in 0.004627 seconds 
+  Import took 0.009486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/DeskLamp_N.tga
+  artifactKey: Guid(4b48f5ff186a8bd4fb86dcd66c5d38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/DeskLamp_N.tga using Guid(4b48f5ff186a8bd4fb86dcd66c5d38f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf7a3b0e22296b09abaaccf2914a966') in 0.004556 seconds 
+  Import took 0.009319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.585775 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/drops.jpg
+  artifactKey: Guid(4351c6633119bec40aceed3e019cf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/drops.jpg using Guid(4351c6633119bec40aceed3e019cf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9205939630aa8a39502838b8283d34') in 0.005338 seconds 
+  Import took 0.011483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006425 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/drops.jpg
+  artifactKey: Guid(4351c6633119bec40aceed3e019cf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/drops.jpg using Guid(4351c6633119bec40aceed3e019cf130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af9205939630aa8a39502838b8283d34') in 0.006149 seconds 
+  Import took 0.013358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/DestructibleProps/Models/MetalBarrel/Explosion.png
+  artifactKey: Guid(3e62d9669c9cb0443a4b9783e4f78a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/MetalBarrel/Explosion.png using Guid(3e62d9669c9cb0443a4b9783e4f78a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d232f465454c1460fd0a2b3867442e') in 0.005255 seconds 
+  Import took 0.010308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/DestructibleProps/Models/MetalBarrel/Explosion.png
+  artifactKey: Guid(3e62d9669c9cb0443a4b9783e4f78a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/MetalBarrel/Explosion.png using Guid(3e62d9669c9cb0443a4b9783e4f78a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d232f465454c1460fd0a2b3867442e') in 0.004203 seconds 
+  Import took 0.010896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.149293 seconds.
+  path: Assets/DestructibleProps/Models/MetalBarrel/FireBall.png
+  artifactKey: Guid(0a743b1697c39b849a3d3408e43b01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/MetalBarrel/FireBall.png using Guid(0a743b1697c39b849a3d3408e43b01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e51def5160be1aca8e9a60495d0f46f') in 0.004682 seconds 
+  Import took 0.009720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001969 seconds.
+  path: Assets/DestructibleProps/Models/MetalBarrel/FireBall.png
+  artifactKey: Guid(0a743b1697c39b849a3d3408e43b01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/MetalBarrel/FireBall.png using Guid(0a743b1697c39b849a3d3408e43b01d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e51def5160be1aca8e9a60495d0f46f') in 0.005760 seconds 
+  Import took 0.011284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.126907 seconds.
+  path: Assets/DestructibleProps/Models/TV01/glassFX.png
+  artifactKey: Guid(fe604e2f05abaa146bda9b69bef9319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/TV01/glassFX.png using Guid(fe604e2f05abaa146bda9b69bef9319b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9e7e64cbeca65df379da4600236707') in 0.004385 seconds 
+  Import took 0.010684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.014384 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop.psd
+  artifactKey: Guid(96a49354b3ff99b459c5564f394151a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop.psd using Guid(96a49354b3ff99b459c5564f394151a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99104b7b18318282e8a1308b37f0e50') in 0.008476 seconds 
+  Import took 0.014250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop.tga
+  artifactKey: Guid(5879758f78acd4146aee00b76d7babf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop.tga using Guid(5879758f78acd4146aee00b76d7babf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4f3ba5f1fb8397cf15296eece52ac3') in 0.006969 seconds 
+  Import took 0.012499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop.psd
+  artifactKey: Guid(96a49354b3ff99b459c5564f394151a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop.psd using Guid(96a49354b3ff99b459c5564f394151a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99104b7b18318282e8a1308b37f0e50') in 0.005474 seconds 
+  Import took 0.009988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005300 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop.tga
+  artifactKey: Guid(5879758f78acd4146aee00b76d7babf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop.tga using Guid(5879758f78acd4146aee00b76d7babf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a4f3ba5f1fb8397cf15296eece52ac3') in 0.006341 seconds 
+  Import took 0.012199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361239 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop_emissive.tga
+  artifactKey: Guid(412beaea0c090ce4a9c3df2cb94beb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop_emissive.tga using Guid(412beaea0c090ce4a9c3df2cb94beb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe12034c46b4b6714ec483ddee392bd') in 0.005906 seconds 
+  Import took 0.011495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop_spec.tga
+  artifactKey: Guid(07644d9a247d2c849801ba925012eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop_spec.tga using Guid(07644d9a247d2c849801ba925012eacc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb50d4461313de9e3fadffbe0ac2352') in 0.005648 seconds 
+  Import took 0.010218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/DestructibleProps/Models/Plants/Leaf.png
+  artifactKey: Guid(3a6696734e21a1648aaf91dd3ee6eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Plants/Leaf.png using Guid(3a6696734e21a1648aaf91dd3ee6eff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f308bcd6cdf80a15da95c9b0f643d380') in 0.003331 seconds 
+  Import took 0.008987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/LightFlare.jpg
+  artifactKey: Guid(a3fa8c99b7ab8e647bed4bc22a4ec34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/LightFlare.jpg using Guid(a3fa8c99b7ab8e647bed4bc22a4ec34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f4c1ae2d77d833f81d226459e3e732') in 0.006772 seconds 
+  Import took 0.012481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop_emissive.tga
+  artifactKey: Guid(412beaea0c090ce4a9c3df2cb94beb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop_emissive.tga using Guid(412beaea0c090ce4a9c3df2cb94beb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe12034c46b4b6714ec483ddee392bd') in 0.004875 seconds 
+  Import took 0.009701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/DestructibleProps/Models/Laptop/Laptop_N.tga
+  artifactKey: Guid(b45c60602e76d4d4493d325c367c46b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Laptop/Laptop_N.tga using Guid(b45c60602e76d4d4493d325c367c46b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309294f9b7b9906311589bf9f7e05e7d') in 0.006075 seconds 
+  Import took 0.011745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.428320 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/LightRays.jpg
+  artifactKey: Guid(b1650af0dc21da148bbac94729030ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/LightRays.jpg using Guid(b1650af0dc21da148bbac94729030ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc1a406df173041049ee363c5cbb259') in 0.004129 seconds 
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005010 seconds.
+  path: Assets/DestructibleProps/Models/DeskLamp/LightRays.jpg
+  artifactKey: Guid(b1650af0dc21da148bbac94729030ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/DeskLamp/LightRays.jpg using Guid(b1650af0dc21da148bbac94729030ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc1a406df173041049ee363c5cbb259') in 0.003567 seconds 
+  Import took 0.009235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/Melon.tga
+  artifactKey: Guid(0808db89dedaf884182aa4dac84e6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/Melon.tga using Guid(0808db89dedaf884182aa4dac84e6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f54a2e587b521e3035c48278b24b66') in 0.005762 seconds 
+  Import took 0.011999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/Melon_spec.tga
+  artifactKey: Guid(0185de35e06108d48bd2b2d5d8171412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/Melon_spec.tga using Guid(0185de35e06108d48bd2b2d5d8171412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16aea484c202974ba2cdc92f2bf6de4') in 0.005738 seconds 
+  Import took 0.012131 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/Melon_N.tga
+  artifactKey: Guid(663952bed918511439506d390a7fec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/Melon_N.tga using Guid(663952bed918511439506d390a7fec78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41dd77d13489e5ca12170c83f2e1985c') in 0.004561 seconds 
+  Import took 0.009517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004747 seconds.
+  path: Assets/DestructibleProps/Models/Watermelon/Melon.tga
+  artifactKey: Guid(0808db89dedaf884182aa4dac84e6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Watermelon/Melon.tga using Guid(0808db89dedaf884182aa4dac84e6ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f54a2e587b521e3035c48278b24b66') in 0.004885 seconds 
+  Import took 0.010588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381132 seconds.
+  path: Assets/Knife/Customizable Hologramm Shader/Textures/noise.png
+  artifactKey: Guid(f1d1e317c910b2a49a88762d16bfc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knife/Customizable Hologramm Shader/Textures/noise.png using Guid(f1d1e317c910b2a49a88762d16bfc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c151f4c9500c03c412ac7a25117d8a3') in 0.006797 seconds 
+  Import took 0.012130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002652 seconds.
+  path: Assets/Knife/Customizable Hologramm Shader/Textures/noise.png
+  artifactKey: Guid(f1d1e317c910b2a49a88762d16bfc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Knife/Customizable Hologramm Shader/Textures/noise.png using Guid(f1d1e317c910b2a49a88762d16bfc211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c151f4c9500c03c412ac7a25117d8a3') in 0.004079 seconds 
+  Import took 0.008896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.534331 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet.tga
+  artifactKey: Guid(c9d4ec7568480364f9daa67ecfdc2611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet.tga using Guid(c9d4ec7568480364f9daa67ecfdc2611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9354da0c649a358604750de92e3489b7') in 0.009606 seconds 
+  Import took 0.016034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet02.tga
+  artifactKey: Guid(9ba52c408a69dfe48a230f2c7c6d73cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet02.tga using Guid(9ba52c408a69dfe48a230f2c7c6d73cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bf8bde9e158de053beabbf658a5e3') in 0.006835 seconds 
+  Import took 0.013285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet_N.tga
+  artifactKey: Guid(40325010243f2b641b552e8fd1f2d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet_N.tga using Guid(40325010243f2b641b552e8fd1f2d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb239a9f9f4a17ef5a5d90fcfb7b4aa5') in 0.006045 seconds 
+  Import took 0.010742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet.tga
+  artifactKey: Guid(c9d4ec7568480364f9daa67ecfdc2611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet.tga using Guid(c9d4ec7568480364f9daa67ecfdc2611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9354da0c649a358604750de92e3489b7') in 0.006093 seconds 
+  Import took 0.011078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet_spec.tga
+  artifactKey: Guid(508557ff989e7ab4e8c5cd3fa72d571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet_spec.tga using Guid(508557ff989e7ab4e8c5cd3fa72d571e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5364118d6f865bf1e82866676c151559') in 0.007488 seconds 
+  Import took 0.012590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet02_spec.tga
+  artifactKey: Guid(9690c83176a8d294ea191dec659c39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet02_spec.tga using Guid(9690c83176a8d294ea191dec659c39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533524e9edefce419ce8f4e0e533b41e') in 0.006187 seconds 
+  Import took 0.010935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/DestructibleProps/Models/Plants/Plant01_N.tga
+  artifactKey: Guid(c6a4a20be6e140049a061d498589e3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Plants/Plant01_N.tga using Guid(c6a4a20be6e140049a061d498589e3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb6536ef8211fbc3ba868851313c49') in 0.005295 seconds 
+  Import took 0.010433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet02.tga
+  artifactKey: Guid(9ba52c408a69dfe48a230f2c7c6d73cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet02.tga using Guid(9ba52c408a69dfe48a230f2c7c6d73cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bf8bde9e158de053beabbf658a5e3') in 0.006241 seconds 
+  Import took 0.012220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/DestructibleProps/Models/Plants/Plant01.tga
+  artifactKey: Guid(ebf9c850509dc874790607ed75a6f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Plants/Plant01.tga using Guid(ebf9c850509dc874790607ed75a6f55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4a8554de55d923737d64bc8dc01841') in 0.005866 seconds 
+  Import took 0.011023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/DestructibleProps/Models/Pallet/Pallet02_spec.tga
+  artifactKey: Guid(9690c83176a8d294ea191dec659c39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DestructibleProps/Models/Pallet/Pallet02_spec.tga using Guid(9690c83176a8d294ea191dec659c39f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533524e9edefce419ce8f4e0e533b41e') in 0.007669 seconds 
+  Import took 0.012564 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003501 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.008 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.4 MB.
+System memory in use after: 176.6 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4073.
+Total: 3.542100 ms (FindLiveObjects: 0.567700 ms CreateObjectMapping: 0.353000 ms MarkObjects: 2.602300 ms  DeleteObjects: 0.018400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 89.948686 seconds.
+  path: Assets/Shaders/HighlightCoin.mat
+  artifactKey: Guid(e2081fc68bde92045961fb557356fd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/HighlightCoin.mat using Guid(e2081fc68bde92045961fb557356fd20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed75823f16408eacb717ac30aaa84bd2') in 0.159081 seconds 
+  Import took 0.164635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.842166 seconds.
+  path: Assets/Scripts/ObjectcollisionBrake.cs
+  artifactKey: Guid(9276715513c8b9a4e90f4b6e41b6f252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObjectcollisionBrake.cs using Guid(9276715513c8b9a4e90f4b6e41b6f252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0a1ec703c0f23f1332f0fbb32648b4') in 0.001279 seconds 
+  Import took 0.008118 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004405 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4114.
+Total: 3.328700 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.727500 ms  DeleteObjects: 0.017600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 570.225790 seconds.
+  path: Assets/Scripts/ObjectcollisionBrake.cs
+  artifactKey: Guid(9276715513c8b9a4e90f4b6e41b6f252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObjectcollisionBrake.cs using Guid(9276715513c8b9a4e90f4b6e41b6f252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c231c7c1c003502d2a6dc2d4f703872') in 0.007775 seconds 
+  Import took 0.014713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003502 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4118.
+Total: 3.301400 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.233100 ms MarkObjects: 2.640700 ms  DeleteObjects: 0.021200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 356.141878 seconds.
+  path: Assets/235497__ekfink__glass-jar-tap-fingernail-[AudioTrimmer.com].wav
+  artifactKey: Guid(18cf50911ab9efd408016c97b9f84a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/235497__ekfink__glass-jar-tap-fingernail-[AudioTrimmer.com].wav using Guid(18cf50911ab9efd408016c97b9f84a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16fb8f2c03e9d1b13c0bc3e91a7dff8') in 0.103092 seconds 
+  Import took 0.108806 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003196 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.958 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4123.
+Total: 3.636700 ms (FindLiveObjects: 0.344900 ms CreateObjectMapping: 0.157000 ms MarkObjects: 3.111800 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4127.
+Total: 2.816200 ms (FindLiveObjects: 0.331100 ms CreateObjectMapping: 0.171000 ms MarkObjects: 2.295900 ms  DeleteObjects: 0.017200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003837 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4131.
+Total: 2.903100 ms (FindLiveObjects: 0.454600 ms CreateObjectMapping: 0.210800 ms MarkObjects: 2.222000 ms  DeleteObjects: 0.014700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4135.
+Total: 3.312700 ms (FindLiveObjects: 0.362600 ms CreateObjectMapping: 0.189500 ms MarkObjects: 2.743200 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003897 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.6 MB.
+System memory in use after: 176.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4139.
+Total: 3.146600 ms (FindLiveObjects: 0.418600 ms CreateObjectMapping: 0.215100 ms MarkObjects: 2.491500 ms  DeleteObjects: 0.020100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003248 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in E:\Projects\DemoVR\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs Line: 249)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3189 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.7 MB.
+System memory in use after: 176.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 4143.
+Total: 2.689400 ms (FindLiveObjects: 0.325200 ms CreateObjectMapping: 0.174200 ms MarkObjects: 2.174000 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
