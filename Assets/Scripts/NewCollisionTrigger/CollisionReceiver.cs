@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CollisionReceiver : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision other) {
-        Debug.Log("Collision");
+    private void OnTriggerEnter(Collider other) {
+        this.GetComponent<Collider>().ClosestPoint(other.transform.position);
     }
     
 }

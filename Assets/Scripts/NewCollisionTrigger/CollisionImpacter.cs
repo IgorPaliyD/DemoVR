@@ -95,6 +95,7 @@ public class CollisionImpacter : MonoBehaviour
             foreach (var obj in m_objectPieces)
             {
                 obj.SetActive(true);
+                obj.transform.SetParent(null);
             }
         }
         if (m_criticalCollisionSound != null)
